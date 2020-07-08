@@ -1,0 +1,555 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 15px;
+   color: #484848;
+
+}
+
+.top-contakt {
+   display: flex;
+   justify-content: space-between;
+   /* text-align: center; */
+   background-color: #ffcb0f;
+   font-size: 15px;
+   line-height: 24px;
+   width: 100%;
+   min-height: 42px;
+   align-items: center;
+   padding: 0 10%;
+
+}
+
+
+.top-contakt a {
+   text-decoration: none;
+   color: #222222;
+
+}
+
+
+.top-contakt_left i {
+   margin: 0 10px;
+
+
+}
+
+.top-contakt_left a {
+   margin: 0 0 0 30px;
+}
+
+.top-contakt_right i {
+   margin: 5px 5px 0 5px;
+   font-size: 20px;
+
+}
+/*                                           navbar */
+.navbar {
+   min-height: 90px;
+   background-color: #222533;
+   line-height: 24px;
+
+}
+
+.navbar-brand {
+   /* display: block; */
+   color: #ffcb0f;
+   padding-left: 30px;
+}
+
+.navbar-brand p {
+   color: #ffcb0f;
+}
+
+.collapse {
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.nav-item {
+   margin-left: 30px;
+}
+/*                                                         top nav                               */
+
+.bg {
+   background: url(../img/layers.jpg) 0 0 / 100% no-repeat;
+   /* height: 100vh; */
+} 
+
+
+
+.baner-text {
+   font-size: 40px;
+   line-height: 72px;
+   margin: 0 auto;
+   color: #ffffff;
+   margin-top: 114px;
+   text-align: center;
+}
+
+.baner-xl {
+   font-size: 60px;
+   line-height: 72px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffffff;
+   margin: 0 auto;
+   margin-top: 30px;
+   text-align: center;
+}
+
+.banerpp {
+   font-size: 23px;
+   line-height: 1.2;
+   color: #ffffff;
+   margin-top: 30px;
+   text-align: center;
+}
+
+.btn-bg {
+   margin: 0 auto;
+}
+
+
+.btn-sv {
+   width: 157px;
+   height: 45px;
+   background-color: #ffcb0f;
+   border-radius: 10.0px;
+   border: none;
+   font-size: 16px;
+   line-height: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin: 70px 35px;
+
+}
+
+.btn-sv a {
+   text-decoration: none;
+   color: #ffffff;
+}
+/*                                                  compani            */
+
+.compani {
+   margin: 100px 0 0 0;
+   
+}
+
+.compani h2 {
+   font-size: 40.8px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #ffcb0f;
+}
+
+.compani h4 {
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   color: #484848;
+}
+
+.compani p {
+   margin: 30px auto;
+}
+
+
+
+.btn-company {
+   font-size: 16px;
+   line-height: 13px;
+   letter-spacing: 0.05em;
+   width: 157px;
+   height: 45px;
+   background-color: #ffcb0f;
+   border-radius: 10.0px;
+}
+
+.btn-company a {
+   text-decoration: none;
+   font-size: 16px;
+   line-height: 13px;
+   letter-spacing: 0.05em;
+   color: #ffffff;
+}
+
+.compani-img {
+   background: url(../img/layer_zfone.png) 0 0 / 100% no-repeat;
+   max-width: 100%;
+   /* max-height: 100%; */
+}
+
+.compani-imgstroy {
+   max-width: 258px;
+   max-height: 472px;
+   margin-left: 30%;
+
+}
+
+/*   блок с круглыми картинкаи   */
+
+.why_are {
+
+   text-align: center;
+   background: #F2F7FA;
+}
+
+.why_are h2 {
+   text-align: center;
+   margin: 0 auto;
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #484848;
+   margin-top: 75px;
+}
+
+.why_are p {
+   text-align: center;
+   margin: 30px 0 0 0;
+   padding: 0 3%;
+}
+
+.roundbl {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 50px 0 0 0;
+
+
+}
+
+
+
+.roundbl_iten p {
+   padding: 0 0 18px 0;
+   margin: 0;
+
+}
+
+.roundbl_iten {
+   width: 200px;
+   margin: 0 45px;
+   text-align: center;
+
+}
+
+.roundbl h5 {
+   margin-top: 15px;
+   font-size: 15px;
+   font-weight: 700;
+
+
+}
+
+.roundbl p {
+   margin: 18px 20px;
+
+}
+
+/*            Блок сервиса       */
+
+
+
+.ousertt h2 {
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #484848;
+   text-align: center;
+   margin: 85px auto 50px;
+}
+
+.ouser {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   margin: 0 auto;
+
+}
+
+.ouser_item {
+   margin: 0 25px 30px 25px;
+   width: 260px;
+}
+
+.ouser_item img {
+   max-width: 100%;
+
+}
+
+.ouser_item h4 {
+   font-size: 20px;
+   font-weight: 700;
+   margin: 30px auto 20px;
+   min-width: 250px;
+}
+
+
+
+/*                                                                                                 */
+
+@media only screen 
+and (min-device-width : 1140px)
+and (max-device-width : 1400px) {
+   .baner-text {
+      margin-top: 50px;
+      line-height: 50px;
+   }
+   
+   .baner-xl {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: 20px;
+   }
+
+   .compani {
+      margin-top: 25px;
+   }
+
+
+
+}
+
+/*                                                                                                  */
+
+@media only screen 
+and (min-device-width : 990px)
+and (max-device-width : 1140px) {
+   .top-contakt {
+      padding: 0 8%;
+   }
+   .baner-text {
+      margin-top: 50px;
+      line-height: 50px;
+      font-size: 30px;
+   }
+   
+   .baner-xl {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: 20px;
+      font-size: 45px;
+   }
+
+   .banerpp {
+      font-size: 18px;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-top: 25px;
+      text-align: center;
+   }
+
+   .btn-sv {
+      margin-top: 35px;
+   }
+
+   .compani {
+      margin-top: 25px;
+   }
+
+   .ouser_item {
+      margin: 0 20px 30px 20px;
+
+   }
+
+
+
+}
+
+/*                                                                                   */
+@media only screen 
+and (min-device-width : 690px)
+and (max-device-width : 990px) {
+   .top-contakt {
+      padding: 0 8%;
+   }
+   .clock {
+      display: none;
+   }
+
+
+   .baner-text {
+      margin-top: 30px;
+      line-height: 20px;
+      font-size: 20px;
+   }
+   
+   .baner-xl {
+      line-height: 30px;
+      margin-top: 10px;
+      font-size: 25px;
+   }
+
+   .banerpp {
+      font-size: 14px;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-top: 15px;
+      text-align: center;
+   }
+
+   .btn-sv {
+      margin-top: 20px;
+   }
+
+   .compani {
+      margin-top: 25px;
+   }
+
+   .compani h2 {
+      text-align: center;
+   }
+
+   .ouser {
+      text-align: center;
+   }
+
+   /* .ouser_item {
+
+   } */
+
+
+
+}
+
+/*                                                                                                   */
+@media only screen 
+and (min-device-width : 390px)
+and (max-device-width : 690px) {
+   .top-contakt a {
+      display: block;
+   }
+
+   .top-contakt_right a {
+      display: block;
+
+   }
+
+   .baner-text {
+      margin-top: 20px;
+      line-height: 18px;
+      font-size: 16px;
+   }
+   
+   .baner-xl {
+      line-height: 24px;
+      margin-top: 10px;
+      font-size: 20px;
+   }
+
+   .banerpp {
+      display: none;
+      /* font-size: 14px;
+      line-height: 1.2;
+      color: #ffffff;
+      margin-top: 10px;
+      text-align: center; */
+   }
+
+   .btn-sv {
+      width: 120px;
+      height: 25px;
+      font-size: 16px;
+      line-height: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 20px 20px;
+      font-size: 13px;
+   }
+
+   .compani {
+      margin-top: 25px;
+   }
+
+   .compani h2 {
+      font-size: 30px;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   .compani h4 {
+      font-size: 24px;
+   }
+
+   .compani-imgstroy {
+      margin-left: 25%;
+   }
+
+
+
+
+}
+
+/*                                                                                                      */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 390px) {
+   .top-contakt {
+      padding: 0 5%;
+   }
+
+   .top-contakt a {
+      display: block;
+   }
+
+   .baner-text {
+      margin-top: 20px;
+      line-height: 14px;
+      font-size: 14px;
+   }
+   
+   .baner-xl {
+      line-height: 18px;
+      margin-top: 8px;
+      font-size: 18px;
+   }
+
+   .banerpp {
+      display: none;
+   }
+
+   .btn-sv {
+      width: 120px;
+      height: 25px;
+      font-size: 16px;
+      line-height: 13px;
+      font-weight: 700;
+      margin: 20px 10px;
+      font-size: 13px;
+   }
+
+   .compani {
+      margin-top: 25px;
+   }
+
+   .compani h2 {
+      font-size: 30px;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   .compani h4 {
+      font-size: 24px;
+      text-align: center;
+   }
+
+   .compani-imgstroy {
+      margin-left: 10%;
+   }
+
+   .roundbl {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+
+}
