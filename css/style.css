@@ -295,7 +295,7 @@ body {
 }
 
 .ouser_item p {
-   min-height: 210px;
+   min-height: 200px;
 }
 
 
@@ -307,7 +307,7 @@ body {
    height: 45px;
    background-color: #ffcb0f;
    border-radius: 10.0px;
-
+   margin-bottom: 20px;
 
 }
 
@@ -318,6 +318,30 @@ body {
    letter-spacing: 0.05em;
    color: #ffffff;
 }
+
+/*    желтый блок                  */
+
+.yellow_block {
+   max-width: 1600px;
+   height: 100vh;
+   background: #D2A70D;
+   margin-top: 100px;
+}
+
+.start_yellow h2 {
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #484848;
+   text-align: center;
+   margin: 70px auto 50px;
+}
+
+.start_yellow p {
+   padding: 0px 150px 70px;
+   text-align: center;
+}
+
 
 /*                                                                                                 */
 
