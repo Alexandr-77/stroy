@@ -291,11 +291,11 @@ body {
    font-size: 20px;
    font-weight: 700;
    margin: 30px auto 20px;
-   min-height: 48px;
+   min-height: 28px;
 }
 
 .ouser_item p {
-   min-height: 200px;
+   min-height: 150px;
 }
 
 
@@ -322,17 +322,16 @@ body {
 /*    желтый блок                  */
 
 .yellow_block {
-   max-width: 1600px;
-   height: 100vh;
+   /* max-width: 100%; */
+
    background: #D2A70D;
+   color: rgb(255, 255, 255);
    margin-top: 100px;
 }
 
 .start_yellow h2 {
    font-size: 30px;
    font-weight: 700;
-   text-transform: uppercase;
-   color: #484848;
    text-align: center;
    margin: 70px auto 50px;
 }
@@ -341,6 +340,43 @@ body {
    padding: 0px 150px 70px;
    text-align: center;
 }
+
+
+.list_yellow {
+   display: flex;
+   justify-content: space-around;
+   max-width: 1140px;
+   min-height: 35px;
+   list-style: none;
+   padding: 0;
+
+
+}
+
+.list_bloc_yellow {
+   min-width: 100%;
+}
+
+.list_yellow_item {
+   margin: 0;
+}
+
+.list_yellow_item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background: transparent;
+    padding: 10px;
+}
+
+.list_yellow_item a:hover {
+   border-radius: 25px;
+   background: purple;
+   padding: 10px;
+}
+
+
+
 
 
 /*                                                                                                 */
@@ -362,6 +398,7 @@ and (max-device-width : 1400px) {
    .compani {
       margin-top: 25px;
    }
+
 
 
 
@@ -406,9 +443,7 @@ and (max-device-width : 1140px) {
 
    .ouser_item {
       margin: 0 20px 30px 20px;
-
    }
-
 
 
 }
@@ -461,9 +496,9 @@ and (max-device-width : 990px) {
       text-align: center;
    }
 
-   /* .ouser_item {
 
-   } */
+
+
 
 
 
@@ -598,6 +633,10 @@ and (max-device-width : 390px) {
       display: flex;
       flex-wrap: wrap;
    }
+
+
+
+
 
 
 }
