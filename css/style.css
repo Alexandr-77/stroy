@@ -279,6 +279,7 @@ body {
 .ouser_item {
    margin: 0 25px 30px 25px;
    width: 260px;
+   min-height: 390px;
 }
 
 .ouser_item img {
@@ -290,10 +291,33 @@ body {
    font-size: 20px;
    font-weight: 700;
    margin: 30px auto 20px;
-   min-width: 250px;
+   min-height: 48px;
+}
+
+.ouser_item p {
+   min-height: 210px;
 }
 
 
+.btn-ouser {
+   font-size: 16px;
+   line-height: 13px;
+   letter-spacing: 0.05em;
+   width: 157px;
+   height: 45px;
+   background-color: #ffcb0f;
+   border-radius: 10.0px;
+
+
+}
+
+.btn-ouser a {
+   text-decoration: none;
+   font-size: 16px;
+   line-height: 13px;
+   letter-spacing: 0.05em;
+   color: #ffffff;
+}
 
 /*                                                                                                 */
 
