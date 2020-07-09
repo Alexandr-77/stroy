@@ -169,6 +169,7 @@ body {
    height: 45px;
    background-color: #ffcb0f;
    border-radius: 10.0px;
+   border: none
 }
 
 .btn-company a {
@@ -308,6 +309,7 @@ body {
    background-color: #ffcb0f;
    border-radius: 10.0px;
    margin-bottom: 20px;
+   border: none
 
 }
 
@@ -319,11 +321,81 @@ body {
    color: #ffffff;
 }
 
+/*       текст и форам отправки    */
+
+.cont_otprav {
+   background: #FFDB5C;
+   min-width: 175px;
+   padding: 35px 0;
+}
+
+.forma_ot {
+   max-width: 1140px;
+   margin: 0 auto;
+   align-items: center;
+}
 
 
+.text_shy {
+   display: block;
+   text-align: center;
+   
+}
 
+.if {
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #2f3240;
+}
 
+.touch {
+   font-size: 30px;
+   line-height: 1.2;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: #2f3240;
+}
 
+.form_bl {
+   text-align: center;
+}
+
+.form_bl input {
+   margin: 5px;
+   padding: 5px 0 5px 15px;
+   border-radius: 8px;
+   border: none;
+}
+
+textarea {
+   margin: 5px;
+   padding: 5px 0 5px 15px;
+   border-radius: 8px;
+   border: none;
+}
+
+.btn-for {
+   font-size: 16px;
+   line-height: 13px;
+   letter-spacing: 0.05em;
+   width: 145px;
+   height: 33px;
+   background-color: #71737D;
+   border-radius: 8.0px;
+   border: none;
+   position: relative;
+   margin: 15px 0 0 5px;
+   top: -15px;
+   left: 0;
+
+}
+
+.btn-for a {
+   text-decoration: none;
+   color: #fff;
+}
 
 
 
