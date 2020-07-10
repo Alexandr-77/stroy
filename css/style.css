@@ -144,7 +144,7 @@ body {
 /*                                                  compani            */
 
 .compani {
-   margin: 100px 0 0 0;
+   margin: 100px 0 20px 0;
    
 }
 
@@ -245,7 +245,7 @@ body {
 }
 
 .roundbl_iten {
-   width: 200px;
+   width: 150px;
    margin: 0 45px;
    text-align: center;
 
@@ -628,6 +628,10 @@ textarea {
 
    .compani h2 {
       text-align: center;
+   }
+
+   .btn-company {
+      margin: 0px 0 30px 0;
    }
 
    .ouser {
