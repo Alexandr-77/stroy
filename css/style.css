@@ -26,7 +26,7 @@ body {
 .top-contakt a {
    text-decoration: none;
    color: #222222;
-
+   
 }
 
 
@@ -38,13 +38,18 @@ body {
 
 .top-contakt_left a {
    margin: 0 0 0 30px;
+   border-radius: 10px;
+
 }
 
-.top-contakt_right i {
+.top-contakt_right a {
    margin: 5px 5px 0 5px;
    font-size: 20px;
 
 }
+
+
+
 /*                                           navbar */
 .navbar {
    min-height: 90px;
@@ -76,8 +81,12 @@ body {
 /*                                                         top nav                               */
 
 .bg {
-   background: url(../img/layers.jpg) 0 0 / 100% no-repeat;
-   /* height: 100vh; */
+   background: url(../img/layers.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   
+
 } 
 
 
@@ -180,10 +189,11 @@ body {
    color: #ffffff;
 }
 
+
 .compani-img {
    background: url(../img/layer_zfone.png) 0 0 / 100% no-repeat;
    max-width: 100%;
-   /* max-height: 100%; */
+
 }
 
 .compani-imgstroy {
@@ -397,23 +407,129 @@ textarea {
    color: #fff;
 }
 
+/*                       футер              */
+
+.footer_container {
+   background: url(../img/image_html/bg-footer.jpg) 0 0 / cover no-repeat ;
+   height: 500px;
+}
+
+.footer_row {
+   padding-top: 125px;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.footer_one h5 {
+   font-size: 25px;
+   line-height: 1.2;
+     color: #ffffff;
+   padding: 0px 0 40px 0;
+}
+
+.footer_one h4 {
+   padding-bottom: 35px;
+}
+
+.footer_one h4 a {
+   color: #ffcb0f;
+}
+
+.footer_one p {
+   padding: 0 0 0 0px;
+   color: #ffffff;
+}
+
+.footer_mesager {
+   padding: 0 15px;
+}
+
+.footer_mesager a  {
+   padding: 10px 14px;
+   color: #ffcb0f;
+   font-size: 30px;
+}
+
+
+/*       футер часть два             */
+
+
+
+.footer_too h5 {
+   font-size: 25px;
+   line-height: 1.2;
+   color: #ffffff;
+   padding: 0px 0 40px 0;
+}
+
+.footer_too p {
+   line-height: 35px;
+}
+
+.footer_too p a {
+   display: block;
+   text-decoration: none;
+   color: #fff;
+}
+
+.footer_too p a:hover {
+   color: #ffcb0f;
+}
+
+/*              футер часть 3           */
+
+
+
+/*            футер часть 4             */
+
+/* .footer_four {
+
+} */
+
+.footer_four  h5 {
+   font-size: 25px;
+   line-height: 1.2;
+   color: #ffffff;
+   padding: 0px 0 40px 0;
+}
+
+.footer_contact a {
+   display: block;
+   text-decoration: none;
+   padding: 7px;
+   color: #fff;
+}
+
+.footer_contact a i {
+   padding: 0 10px;
+}
+
+.footer_contact a:hover {
+   color: #ffcb0f;
+}
+
+
 
 
 /*                                                                                                 */
 
-@media only screen 
-and (min-device-width : 1140px)
-and (max-device-width : 1400px) {
+@media (max-width: 1400px) {
+
    .baner-text {
-      margin-top: 50px;
+      margin-top: 150px;
       line-height: 50px;
    }
    
    .baner-xl {
-      font-size: 50px;
+      font-size: 60px;
       line-height: 50px;
-      margin-top: 20px;
+      padding: 30px;
    }
+
+   .banerpp {
+      line-height: 35px;
+   }
+
 
    .compani {
       margin-top: 25px;
@@ -426,15 +542,14 @@ and (max-device-width : 1400px) {
 
 /*                                                                                                  */
 
-@media only screen 
-and (min-device-width : 990px)
-and (max-device-width : 1140px) {
+@media (max-width: 1140px) {
+
    .top-contakt {
       padding: 0 8%;
    }
    .baner-text {
-      margin-top: 50px;
-      line-height: 50px;
+
+      line-height:30px;
       font-size: 30px;
    }
    
@@ -446,10 +561,10 @@ and (max-device-width : 1140px) {
    }
 
    .banerpp {
-      font-size: 18px;
-      line-height: 1.2;
+      font-size: 20px;
+      line-height: 35px;
       color: #ffffff;
-      margin-top: 25px;
+      margin: 25px 0;
       text-align: center;
    }
 
@@ -469,9 +584,8 @@ and (max-device-width : 1140px) {
 }
 
 /*                                                                                   */
-@media only screen 
-and (min-device-width : 690px)
-and (max-device-width : 990px) {
+@media (max-width: 990px) {
+
    .top-contakt {
       padding: 0 8%;
    }
@@ -480,28 +594,33 @@ and (max-device-width : 990px) {
    }
 
 
+
+
    .baner-text {
-      margin-top: 30px;
-      line-height: 20px;
-      font-size: 20px;
+      margin-top: 80px;
+      line-height: 50px;
+      font-size: 30px;
+
    }
    
    .baner-xl {
-      line-height: 30px;
-      margin-top: 10px;
-      font-size: 25px;
+      line-height: 1.3;
+
+      font-size: 35px;
+      padding: 20px 0 20px 0;
    }
 
    .banerpp {
-      font-size: 14px;
-      line-height: 1.2;
+      font-size: 20px;
+      line-height: 1.5;
       color: #ffffff;
       margin-top: 15px;
       text-align: center;
+      
    }
 
    .btn-sv {
-      margin-top: 20px;
+      margin-top: 120px;
    }
 
    .compani {
@@ -519,15 +638,11 @@ and (max-device-width : 990px) {
 
 
 
-
-
-
 }
 
 /*                                                                                                   */
-@media only screen 
-and (min-device-width : 390px)
-and (max-device-width : 690px) {
+@media (max-width: 690px) {
+
    .top-contakt a {
       display: block;
    }
@@ -536,26 +651,27 @@ and (max-device-width : 690px) {
       display: block;
 
    }
+   /* .bg {
+      
+   } */
 
    .baner-text {
-      margin-top: 20px;
       line-height: 18px;
-      font-size: 16px;
+      font-size: 20px;
+      margin: 40px auto 10px;
+
    }
    
    .baner-xl {
-      line-height: 24px;
-      margin-top: 10px;
+      line-height: 40px;
       font-size: 20px;
+
    }
 
    .banerpp {
-      display: none;
-      /* font-size: 14px;
-      line-height: 1.2;
-      color: #ffffff;
-      margin-top: 10px;
-      text-align: center; */
+      font-size: 16px;
+      line-height: 22px;
+
    }
 
    .btn-sv {
@@ -589,13 +705,11 @@ and (max-device-width : 690px) {
 
 
 
-
 }
 
 /*                                                                                                      */
-@media only screen 
-and (min-device-width : 320px)
-and (max-device-width : 390px) {
+@media (max-width : 390px) {
+
    .top-contakt {
       padding: 0 5%;
    }
@@ -604,20 +718,27 @@ and (max-device-width : 390px) {
       display: block;
    }
 
+
+
    .baner-text {
-      margin-top: 20px;
+
       line-height: 14px;
-      font-size: 14px;
+      font-size: 16px;
+
    }
    
    .baner-xl {
-      line-height: 18px;
+      line-height: 25px;
       margin-top: 8px;
-      font-size: 18px;
+      font-size: 20px;
+
    }
 
    .banerpp {
-      display: none;
+      line-height: 18px;
+      margin-top: 8px;
+      font-size: 14px;
+
    }
 
    .btn-sv {
@@ -628,6 +749,7 @@ and (max-device-width : 390px) {
       font-weight: 700;
       margin: 20px 10px;
       font-size: 13px;
+
    }
 
    .compani {
