@@ -642,6 +642,10 @@ textarea {
 /*                                                                                                   */
 @media (max-width: 690px) {
 
+   .top-contakt {
+      padding: 5px 30px;
+   }
+
    .top-contakt a {
       display: block;
    }
@@ -664,7 +668,7 @@ textarea {
   }
 
   .top-contakt_left a {
-   margin: 5px 0;
+   margin: 0;
 }
 
   .top-contakt_right {
@@ -730,6 +734,10 @@ textarea {
       padding: 0 5%;
    }
 
+   .top-contakt {
+      padding: 5px 20px;
+   }
+
    .top-contakt a {
       display: block;
       
@@ -741,7 +749,7 @@ textarea {
 
    
    .top-contakt_left a {
-      margin: 5px 0;
+      margin: 0;
    }
 
    .top-contakt_right {
