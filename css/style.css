@@ -231,7 +231,7 @@ body {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   margin: 50px 0 0 0;
+   margin: 50px auto 0;
 
 
 }
@@ -409,15 +409,18 @@ textarea {
 /*                       футер              */
 
 .footer_container {
-   background: url(../img/image_html/bg-footer.jpg) 0 0 / cover no-repeat ;
-   height: 500px;
+   background: url(../img/image_html/bg-footer.jpg) 0 0 / cover no-repeat;
+   min-height: 500px;
 }
 
 .footer_row {
    padding-top: 125px;
    max-width: 1140px;
    margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
 }
+
 
 .footer_one h5 {
    font-size: 25px;
@@ -479,11 +482,30 @@ textarea {
 
 
 
+.footer_three h5 {
+   font-size: 25px;
+   line-height: 1.2;
+   color: #ffffff;
+   padding: 0px 0 40px 0;
+}
+
+.footer_three p {
+   line-height: 35px;
+}
+
+.footer_three p a {
+   display: block;
+   text-decoration: none;
+   color: #fff;
+}
+
+.footer_three p a:hover {
+   color: #ffcb0f;
+}
+
 /*            футер часть 4             */
 
-/* .footer_four {
 
-} */
 
 .footer_four  h5 {
    font-size: 25px;
@@ -638,7 +660,9 @@ textarea {
       text-align: center;
    }
 
-
+   .footer_one, .footer_too, .footer_three, .footer_four {
+      margin: 0px 0 60px 0;
+   }
 
 
 }
