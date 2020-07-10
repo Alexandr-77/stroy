@@ -52,10 +52,9 @@ body {
 
 /*                                           navbar */
 .navbar {
-   min-height: 90px;
+   min-height: 80px;
    background-color: #222533;
    line-height: 24px;
-
 }
 
 .navbar-brand {
@@ -651,14 +650,15 @@ textarea {
       display: block;
 
    }
-   /* .bg {
-      
-   } */
+ 
+   .navbar-brand p {
+      margin: 0;
+  }
 
    .baner-text {
       line-height: 18px;
       font-size: 20px;
-      margin: 40px auto 10px;
+      margin: 80px auto 10px;
 
    }
    
@@ -681,7 +681,7 @@ textarea {
       line-height: 13px;
       font-weight: 700;
       text-transform: uppercase;
-      margin: 20px 20px;
+      margin: 50px 20px;
       font-size: 13px;
    }
 
@@ -716,9 +716,34 @@ textarea {
 
    .top-contakt a {
       display: block;
+      
    }
 
+   a.clock {
+      display: none;
+   }
 
+   
+   .top-contakt_left a {
+      margin: 0;
+   }
+
+   .top-contakt_right {
+      display: none;
+   }
+
+   .navbar-brand p {
+      margin: 0;
+  }
+
+   .navbar {
+      min-height: 60px;
+
+   }
+
+   .navbar-brand p {
+      padding: 0;
+   }
 
    .baner-text {
 
