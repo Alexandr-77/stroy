@@ -507,7 +507,7 @@ textarea {
 
 
 
-.footer_four  h5 {
+.footer_four h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
@@ -517,12 +517,12 @@ textarea {
 .footer_contact a {
    display: block;
    text-decoration: none;
-   padding: 7px;
+   padding: 7px 7px 7px 0;
    color: #fff;
 }
 
 .footer_contact a i {
-   padding: 0 10px;
+   padding: 0 10px 0 0;
 }
 
 .footer_contact a:hover {
