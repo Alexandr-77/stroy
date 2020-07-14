@@ -260,7 +260,7 @@ body {
 }
 
 .roundbl p {
-   margin: 18px 20px;
+   margin: 18px 0px;
 
 }
 
@@ -404,6 +404,43 @@ textarea {
 .btn-for a {
    text-decoration: none;
    color: #fff;
+}
+
+/*                         постройка домов                         */
+
+.bg_building {
+   background: url(../img/house-building/home1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+}
+
+.bg_building h2 {
+   padding: 10% 15%;
+   font-size: 40px;
+   color: #fff;
+}
+
+.buildingaaa {
+   margin: 30px auto;
+   font-weight: 700;
+}
+
+.building_image {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+.building_image img {
+    margin: 25px auto;
+
+    transition: 0.9s;
+}
+
+.building_image img:hover {
+  transform: scale(1.3);
+  transition: 0.9s;
 }
 
 /*                       футер              */
@@ -556,7 +593,13 @@ textarea {
       margin-top: 25px;
    }
 
-
+   /*                  постройка домов                       */
+   .bg_building {
+      background: url(../img/house-building/home1200.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+   }
 
 
 }
@@ -601,6 +644,14 @@ textarea {
       margin: 0 20px 30px 20px;
    }
 
+   /*                  постройка домов                       */
+
+   .bg_building {
+      background: url(../img/house-building/home1200.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+   }
 
 }
 
@@ -662,6 +713,16 @@ textarea {
 
    .footer_one, .footer_too, .footer_three, .footer_four {
       margin: 0px 0 60px 0;
+   }
+
+   
+   /*                 постройка домов                    */
+
+   .bg_building {
+      background: url(../img/house-building/home001.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
    }
 
 
@@ -751,6 +812,14 @@ textarea {
       margin-left: 25%;
    }
 
+   /*                строительство домов                  */
+
+   .bg_building {
+      background: url(../img/house-building/home001.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+   }
 
 
 }
@@ -852,6 +921,24 @@ textarea {
       flex-wrap: wrap;
    }
 
+   /*                 построим дом                  */
+
+   .bg_building {
+      background: url(../img/house-building/home001.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+   }
+
+   .bg_building h2 {
+      font-size: 30px;
+      text-align: center;
+      line-height: 40px;
+   }
+
+   .buildingaaa {
+      font-size: 25px;
+   }
 
 
 
