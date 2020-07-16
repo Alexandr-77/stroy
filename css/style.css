@@ -429,18 +429,42 @@ textarea {
 .building_image {
    display: flex;
    flex-wrap: wrap;
+   margin: 20px auto 50px;
 
 }
 
-.building_image img {
-    margin: 25px auto;
+.building_image a {
+   display: flex;
+   max-width: 300px;
+   margin: 5px;
+   text-align: center;
+   margin: 5px auto;
 
-    transition: 0.9s;
+
+
+}
+
+
+.building_image img {
+   width: 100%;
+   /* margin: 5px auto; */
+   transition: 0.9s;
 }
 
 .building_image img:hover {
   transform: scale(1.3);
   transition: 0.9s;
+}
+
+/*                    ссылки на дома                     */
+
+.dm {
+   display: block;
+   text-align: center;
+}
+
+.dm_img img {
+   margin: 10px;
 }
 
 /*                       футер              */
@@ -724,6 +748,7 @@ textarea {
       background-size: cover;
       min-height: 100vh;
    }
+
 
 
 }
