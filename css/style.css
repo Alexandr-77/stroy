@@ -50,7 +50,8 @@ body {
 
 
 
-/*                                           navbar */
+/*            navbar    */
+
 .navbar {
    min-height: 80px;
    background-color: #222533;
@@ -77,14 +78,13 @@ body {
 .nav-item {
    margin-left: 30px;
 }
-/*                                                         top nav                               */
+/*                top nav                 */
 
 .bg {
    background: url(../img/layers.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
-   
 
 } 
 
@@ -408,9 +408,6 @@ textarea {
 
 /*                         постройка домов                         */
 
-.bg_building_cont {
-   padding: 0;
-}
 
 
 .bg_building {
@@ -418,12 +415,19 @@ textarea {
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
+
+
 }
 
 .bg_building h2 {
    padding: 10% 15%;
    font-size: 40px;
    color: #fff;
+}
+
+.building_bloc {
+   margin: 40px 0;
+
 }
 
 .building_image {
@@ -445,6 +449,7 @@ textarea {
 
 .building_image h2 {
    margin: 50px 0;
+   padding: 0 5px;
 }
 
 
@@ -455,6 +460,9 @@ textarea {
 .footer_container {
    background: url(../img/image_html/bg-footer.jpg) 0 0 / cover no-repeat;
    min-height: 500px;
+
+
+
 }
 
 .footer_row {
@@ -463,13 +471,14 @@ textarea {
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
+
 }
 
 
 .footer_one h5 {
    font-size: 25px;
    line-height: 1.2;
-     color: #ffffff;
+   color: #ffffff;
    padding: 0px 0 40px 0;
 }
 
@@ -730,6 +739,7 @@ textarea {
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
+
    }
 
 
