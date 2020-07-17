@@ -416,7 +416,6 @@ textarea {
    background-size: cover;
    min-height: 100vh;
 
-
 }
 
 .bg_building h2 {
@@ -466,8 +465,13 @@ textarea {
 /*                       футер              */
 
 .footer_container {
-   background: url(../img/image_html/bg-footer.jpg) 0 0 / cover no-repeat;
+   background: url(../img/image_html/bg-footer.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
    min-height: 500px;
+
+
 
 
 
