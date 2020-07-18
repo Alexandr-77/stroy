@@ -1,0 +1,618 @@
+
+*,*:before,*:after{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+html,body{
+   max-width: 100%;
+   font-family: 'Roboto', sans-serif;
+   color: #333;
+}
+
+
+
+.header{
+   background: #C7E3DB;
+   display: flex;
+   color: #fff;
+   line-height: 30px;
+   min-height: 40px;
+}
+
+
+
+.fa-book-open {
+   margin: 12px 10px 0 0;
+}
+
+.fa-phone-alt {
+   margin-right: 3px;
+}
+
+.catalog_top a {
+   margin-left: 20px;
+   border: 1px solid;
+   border-radius: 5px;
+   padding: 5px;
+
+}
+
+.row_tel {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.row_tel a {
+   text-decoration: none;
+   /* color: #343A40; */
+   color: #fff;
+   border-radius: 5px;
+}
+
+.row_tel a:hover {
+   color: rgb(2, 2, 2);
+   /* background: #343A40; */
+   /* border: none; */
+}
+
+.tel_top {
+padding: 5px 0 0 0;
+}
+
+.tel_top a:hover {
+   border-radius: 5px;
+}
+
+nav .active {
+   text-shadow: 1px 1px  #000;
+
+
+}
+
+.navbar {
+   font-size: 16px;
+   /* background: #ED008C; */
+
+
+}
+
+.navbar-brand {
+   padding-left: 2%;
+}
+
+
+
+.navbar-nav {
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 15px;
+   font-weight: 400;
+
+   
+}
+
+.navbar-nav li a {
+   color: #333333!important;
+   margin-left: 15px;
+   border-bottom: 1px solid #fff;
+   transition: 0.5s;
+}
+
+.navbar-nav li a:hover {
+   color: #000!important;
+   border-bottom: 1px solid #C7E3DB;
+   transition: 0.4s;
+}
+
+
+
+.navbar-toggler{
+   background-color: #C7E3DB;
+
+
+}
+
+.fa .fa-bars {
+   color: #000;
+   background-color: #9387e4;
+   width: 30px;
+}
+
+/*                карусель                  */
+
+
+.carousel-caption {
+   font-weight: 700;
+   margin-bottom: 200px;
+}
+
+.carousel-caption p {
+   padding-right: 10%;
+}
+
+.carousel-caption h2 {
+   color: #fff;
+}
+
+.carousel-item {
+   font-weight: 700;
+
+}
+
+/*                    конец карусели              */
+
+
+.centertt {
+   margin-top: 1%;
+   margin-bottom: 3%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   font-weight: 700;
+   color: rgb(46, 43, 43);
+   padding: 20px;
+   letter-spacing: 3px;
+}
+
+/*                       парфюм             */
+
+.parfume-top_image {
+   display: flex;
+   justify-content: center;
+   margin: 5px auto; 
+   max-width: 100%;
+}
+
+.img-perfume {
+   display: flex;
+   max-width: 50%;
+}
+
+.img-perfumenone {
+   display: flex;
+   max-width: 50%;
+}
+
+
+/*                         makeup           */
+
+
+.img-makeup {
+   display: flex;
+   margin: 0 auto;
+   max-width: 100%;
+}
+
+/*                        face              */
+
+.face-top-img {
+   display: flex;
+   justify-content: center;
+   margin-top: 5px;
+   max-width: 100%;
+
+
+}
+
+.img-face {
+   display: flex;
+   max-width: 100%;
+   margin: 0 auto;
+   max-width: 50%;
+
+}
+
+.img-facetoo {
+   display: flex;
+   max-width: 100%;
+   margin: 0 auto;
+   max-width: 50%;
+
+}
+
+/*                       for_body       */
+
+.for_body-top-img {
+   display: flex;
+   justify-content: center;
+   margin: 5px;
+
+}
+
+.img-for_body {
+   display: flex;
+   max-width: 48%;
+
+}
+
+.img-for_bodysss {
+   display: flex;
+   max-width: 48%;
+
+}
+
+/*                      per                 */
+
+.per-top-img {
+   display: flex;
+   justify-content: center;
+   margin: 5px 0;
+
+}
+
+.img-peru {
+   display: flex;
+   max-width: 100%;
+}
+
+/*                     карточки              */
+
+.card-deck {
+   display: flex;
+   font-size: 14px;
+   line-height: 19px;
+   margin: 0 auto;
+
+}
+
+.card {
+   display: flex;
+   max-width: 100%;
+   border: none;
+   margin: 30px auto;
+   min-width: 200px;
+   max-width: 288px;
+
+}
+
+
+.card-body {
+   text-align: center;
+   padding: 0px;
+   margin: 0;
+}
+
+.card-body p {
+   padding: 0;
+   margin: 0 0 10px 0;
+   line-height: 20px;
+   font-size: 16px;
+
+}
+
+.card-footer {
+   text-align: center;
+   background: #fff;
+
+}
+
+small {
+   font-size: 14px;
+}
+
+.text-muted {
+   color: #000000!important;
+}
+
+
+.card img {
+   max-width: 100%;
+   transition: 0.5s;
+}
+
+.card img:hover {
+   transform: scale(1.3);
+   transition: 0.9s;
+}
+
+/*              конец карточек         */
+
+.textoriav {
+   display: flex;
+   margin-top: 70px;
+}
+
+.textblock-left {
+   margin-top: 20px;
+}
+
+.textblock-right {
+   margin-top: 20px;
+}
+
+/*                  футер                   */
+
+.footer {
+   min-height: 200px;
+   margin-top: 30px;
+   padding-top: 45px;
+   color: ivory;
+   text-decoration: none;
+  }
+
+
+
+.footer a {
+   text-decoration: none;
+   color: ivory;
+}
+
+.footer_mesedger a {
+   margin-right: 5px;
+}
+
+.fa-facebook-f {
+   color: #3D5B99;
+}
+
+.fa-vk {
+   color: #4A76A8;
+}
+
+.fa-odnoklassniki {
+   color: #EE8208;
+}
+
+.fa-whatsapp {
+   color: #01E675;
+}
+
+.fa-paper-plane {
+   color: #32AFED;
+}
+
+.fa-viber {
+   color: #9387e4;
+}
+
+.footer a:hover {
+   color: rgb(16, 236, 64);
+}
+
+.fab:hover {
+   color: rgb(126, 236, 150);
+}
+
+.far:hover {
+   color: rgb(126, 236, 150);
+}
+
+
+/*   ========================   media   ================ */
+
+@media (max-width : 768px) {
+
+/*            парфюм мобила          */
+
+.parfume-top_image {
+   display: block;
+   justify-content: center;
+   margin: 5px;
+   
+
+}
+
+.img-perfume {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+
+}
+
+.img-perfumenone {
+   display: block;
+   max-width: 100%;
+   border-radius: 10px;
+}
+
+
+/*            парфюм мобила конец          */
+
+/*            для лица мобила              */
+.face-top-img {
+   display: block;
+   max-width: 100%;
+   margin: 5px;
+}
+
+.img-face {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+}
+
+.img-facetoo {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+}
+
+/*          для лица мобила Конец          */
+
+/*           для тела мобила         */
+
+.for_body-top-img {
+   display: block;
+   justify-content: center;
+   margin: 5px;
+
+
+}
+
+.img-for_body {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+
+}
+
+.img-for_bodysss {
+   display: block;
+   max-width: 100%;
+   border-radius: 10px;
+}
+
+/*          для тела конец           */
+
+/*          для волос                      */
+
+.per-top-img {
+   display: block;
+   justify-content: center;
+   margin: 5px 0;
+   
+}
+
+.img-peru {
+   display: block;
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+/*        Для волос конец             */
+
+}
+
+/*    ==============   media 2   ======*/
+@media (max-width : 568px) {
+
+.row_tel {
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.catalog_top {
+   padding-left: 2%;
+}
+
+.catalog_top a {
+   margin: 0 2px;
+}
+
+.tel_top {
+   display: block;
+   margin: 0 auto;
+
+}
+.tel_top a.tel {
+   display: none;
+}
+
+.tel_top a i .fa-phone-alt:hover {
+   color: #000;
+}
+
+/*            парфюм мобила          */
+
+ .parfume-top_image {
+   display: block;
+   justify-content: center;
+   margin: 5px;
+   
+
+}
+
+.img-perfume {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+
+}
+
+.img-perfumenone {
+   display: none;
+   /* max-width: 100%;
+   border-radius: 10px; */
+}
+
+
+/*            парфюм мобила конец          */
+
+/*            для лица мобила              */
+.face-top-img {
+   display: block;
+   max-width: 100%;
+   margin: 5px;
+}
+
+.img-face {
+   display: none;
+   /* max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px; */
+}
+
+.img-facetoo {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+}
+
+/*          для лица мобила Конец          */
+
+/*           для тела мобила         */
+
+.for_body-top-img {
+   display: block;
+   justify-content: center;
+   margin: 5px;
+
+
+}
+
+.img-for_body {
+   display: block;
+   max-width: 100%;
+   margin-bottom: 5px;
+   border-radius: 10px;
+
+}
+
+.img-for_bodysss {
+   display: none;
+   /* max-width: 100%;
+   border-radius: 10px; */
+}
+
+/*          для тела конец           */
+
+/*          для волос                      */
+
+.per-top-img {
+   display: block;
+   justify-content: center;
+   margin: 5px 0;
+   
+}
+
+.img-peru {
+   display: block;
+   max-width: 100%;
+   margin: 0 auto;
+}
+
+/*        Для волос конец             */
+
+.card img:hover {
+   transform: none;
+
+}
+
+/*                                     */
+.textoriav {
+   display: block;
+   text-align: center;
+
+}
+
+}
