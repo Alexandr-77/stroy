@@ -683,7 +683,7 @@ textarea {
    /*                  постройка домов                       */
 
    .bg_building {
-/*       background: url(../img/house-building/home1200.jpg); */
+      /* background: url(../img/house-building/home1200.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
@@ -755,7 +755,7 @@ textarea {
    /*                 постройка домов                    */
 
    .bg_building {
-      background: url(../img/house-building/unnamed.png);
+      /* background: url(../img/house-building/unnamed.png); */
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
