@@ -465,10 +465,44 @@ textarea {
    padding: 0 5px;
 }
 
+/*           ремонт                   */
+
+.cont_remont h2 {
+   margin: 20px auto;
+   text-align: center;
+}
+
+.row_remont {
+   display: flex;
+   justify-content: center;
+}
+
+.card {
+   border: none;
+}
 
 
 
+.remont_card-body ul li {
+   color: #ffcb0f;
+   list-style: square;
+   font-size: 20px;
+}
 
+.remont_card-body ul li span {
+   color: #2f3240;
+   margin: 0 15px;
+   font-size: 15px;
+}
+
+.remont_tooq_row {
+   margin: 50px 0;
+   margin-bottom: 70px;
+}
+
+.remont_tooq_row h2 {
+   margin: 30px auto;
+}
 
 /*                       футер              */
 
