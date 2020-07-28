@@ -5,8 +5,8 @@ body {
    box-sizing: border-box;
    font-size: 15px;
    color: #484848;
-
 }
+
 
 .top-contakt {
    display: flex;
@@ -504,7 +504,90 @@ textarea {
    margin: 30px auto;
 }
 
-/*                       футер              */
+/* ==================== сантех ================ */
+
+.santeh_cont h2 {
+   text-align: center;
+   margin: 40px 0 30px;
+}
+
+.santeh_cart {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.santeh_cart_item {
+   margin: 20px 30px;
+   max-width: 200px;
+
+}
+
+.santeh_cart_item img {
+   margin: 0 auto;
+   background: #ffcb0f;
+
+
+   padding: 50px;
+}
+
+.santeh_cart_item h5 {
+   padding: 15px 0 10px;
+   text-align: center;
+}
+
+.santeh_cart_item p {
+
+   text-align: center;
+}
+
+.santehn_baton {
+   text-align: center;
+   margin: 40px 3%;
+   
+}
+
+/*  ============================ электрика =============================== */
+.electro  {
+   text-align: center;
+}
+
+.electro h2 {
+   text-align: center;
+   margin: 50px 0;
+}
+
+.electro_block_item {
+   display: flex;
+   margin: 30px;
+   padding: 20px;
+   background-color: #ffcb0f;
+}
+
+.electro_block_image {
+   width: 50%;
+   align-items: center;
+   margin: auto;
+
+}
+
+
+
+.electro_block_text {
+   padding: 0 40px;
+   margin: 0;
+   width: 50%;
+   margin: auto;
+}
+
+.electro_block_text h2 {
+   margin: 15px auto;
+}
+
+/* ====================== футер ================= */
+/* ====================== футер ================= */
+/* ====================== футер ================= */
+
 
 .footer_container {
    background: url(../img/image_html/bg-footer.jpg);
@@ -730,19 +813,14 @@ textarea {
       display: none;
    }
 
-
-
-
    .baner-text {
       margin-top: 80px;
       line-height: 50px;
       font-size: 30px;
-
    }
    
    .baner-xl {
       line-height: 1.3;
-
       font-size: 35px;
       padding: 20px 0 20px 0;
    }
@@ -781,7 +859,7 @@ textarea {
    }
 
    
-   /*                 постройка домов                    */
+   /*       постройка домов      */
 
    .bg_building {
       /* background: url(../img/house-building/unnamed.png); */
@@ -791,7 +869,45 @@ textarea {
 
    }
 
+   /*  ===================== электрика ===================== */
 
+   .electro {
+      text-align: center;
+      margin: 0 auto;
+   }
+
+
+   .electro_block_item {
+      display: block;
+      margin: 20px 0;
+      padding: 0;
+   }
+   .electro_block_text {
+      margin: 0 auto;
+      padding: 0;
+   }
+
+   .electro_block_text p {
+      /* margin: 0 auto; */
+      padding: 15px 0;
+   }
+
+   .electro_block_image {
+      text-align: center;
+      margin: 0px auto;
+      padding: 0 ;
+
+
+   }
+
+   .electro_block_image img {
+      max-width: 100%;
+      margin: 20px 0;
+   }
+
+   .electro_block_text h2 {
+      padding-top: 20px;
+   }
 
 }
 
