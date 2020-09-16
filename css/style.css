@@ -625,6 +625,7 @@ textarea {
 
 
 
+
 /* ====================== футер ================= */
 /* ====================== футер ================= */
 /* ====================== футер ================= */
@@ -723,6 +724,29 @@ textarea {
    display: block;
    text-decoration: none;
    color: #fff;
+}
+
+.footer_three p a i {
+   padding: 0 10px 0 0;
+}
+
+.footer_three p.site {
+   display: flex;
+   margin: -10px 0 0 0;
+}
+
+.footer_three p.site a {
+padding-right: 20px;
+}
+
+.site a i {
+   font-size: 17px;
+   color: #ffcb0f;
+}
+
+.site a i:hover {
+   font-size: 17px;
+   color: #406dff;
 }
 
 .footer_three p a:hover {
