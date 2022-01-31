@@ -34,12 +34,8 @@
    
    <nav class="navbar navbar-expand-lg navbar-dark text-center">
       <a href="#" class="navbar-brand">
-         <!-- <img src="#" width="70" height="35" alt="stroy"> -->
          <p>MASTER</p>
       </a>
-      <!-- <a href="#" class="navbar-brand">
-         <img src="./img/img_fon/avon-foot.png" width="60" height="30" alt="logo">
-      </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -70,22 +66,22 @@
 
    <div class="bg">
       <div class="container containerbg">
-         <div class="row">
+         <div class="row row-glob">
             <h3 class="baner-text">Мы сертифицированные инженеры</h3>
             <h1 class="baner-xl">Строительные услуги <br> Профессиональный подход</h1>
             <p class="banerpp">
                Компания Master-Stroymd производит косметический, капитальный, дизайнерский и эксклюзивный ремонт квартир и домов. Мы гарантируем высококачественный сервис и персональный подход в разработке и поиске решения для каждого заказчика!
             </p>
             <div class="btn-bg">
-               <button class="btn-sv" ><a href="tel:+37377582978">Позвонить</a></button>
-               <button class="btn-sv"><a href="mailto:master-stroymd@mail.ru">email</a></button>
+               <a class="btn-sv" href="tel:+37377582978">Позвонить</a>
+               <a class="btn-sv" href="mailto:master-stroymd@mail.ru">email</a>
             </div>
 
          </div>
       </div>
    </div>
 
-    <div class="container">
+    <div class="container container-compani">
       <div class="row compani">
          <div class="col-12 col-sm-12 col-md-6">
             <h2>Добро пожаловать в нашу компанию</h2>
@@ -101,7 +97,7 @@
       </div>
    </div>
 
-   <div class="container">
+   <div class="container container-why_are">
       <div class="row why_are">
          <h2>Почему выбирают нас ?</h2>
          <p>
@@ -133,7 +129,7 @@
    </div>
 
 
-   <div class="container">
+   <div class="container container-ousertt">
       <div class="row ousertt">
          <h2>НАШИ СЕРВИСЫ</h2>
          <div class="ouser">
@@ -169,11 +165,13 @@
          </div>
          <div class="col-sm-6">
             <div class="form_bl">
-               <form action="#" method="POST" enctype="multipart/form-data"></form>
-               <input type="text" placeholder="имя">
-               <input type="text" placeholder="mail">
-               <textarea name="#" id="#" placeholder="текс"cols="30" rows="1"></textarea>
-               <button class="btn-for"><a href="#">Отправить</a></button>
+               <form class="form" action="#" method="POST" enctype="multipart/form-data">
+                  <input class="form__item" type="text" placeholder="имя">
+                  <input class="form__item" type="text" placeholder="mail">
+                  <textarea class="form__item" placeholder="текст"></textarea>
+                  <button class="btn-for form__item">Отправить</button>
+               </form>
+
             </div>
          </div>
       </div>

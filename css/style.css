@@ -6,12 +6,21 @@ body {
    font-size: 15px;
    color: #484848;
 }
-
-
+img {
+   display: block;
+   max-width: 100%;
+   margin: 0 auto;
+}
+a {
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+}
 .top-contakt {
    display: flex;
    justify-content: space-between;
-   /* text-align: center; */
    background-color: #ffcb0f;
    font-size: 15px;
    line-height: 24px;
@@ -19,36 +28,30 @@ body {
    min-height: 42px;
    align-items: center;
    padding: 0 10%;
-
 }
-
-
 .top-contakt a {
    text-decoration: none;
    color: #222222;
-   
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
 }
-
-
+.top-contakt a:hover {
+   color: #fcf595;
+} 
 .top-contakt_left i {
    margin: 0 10px;
-
-
 }
-
 .top-contakt_left a {
    margin: 0 0 0 30px;
    border-radius: 10px;
-
 }
-
 .top-contakt_right a {
-   margin: 5px 5px 0 5px;
+   margin: 5px 12px 0;
    font-size: 20px;
-
 }
-
-
 
 /* ==================== navbar ===================== */
 
@@ -56,25 +59,20 @@ body {
    min-height: 80px;
    background-color: #222533;
    line-height: 24px;
+   padding: 20px 1rem;
 }
-
 .navbar-brand {
-   /* display: block; */
    color: #ffcb0f;
    padding-left: 30px;
 }
-
 .navbar-brand p {
    color: #ffcb0f;
+   margin: 0;
 }
-
 .collapse {
    display: flex;
    justify-content: center;
 }
-
-
-
 .nav-item {
    margin-left: 30px;
 }
@@ -84,24 +82,22 @@ body {
    background: url(../img/layers.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 100vh;
-
+   min-height: 680px;
 } 
-
-
-
+.row-glob {
+   padding: 0 15px;
+}
 .baner-text {
    font-size: 40px;
-   line-height: 72px;
+   line-height: 140%;
    margin: 0 auto;
    color: #ffffff;
    margin-top: 114px;
    text-align: center;
 }
-
 .baner-xl {
    font-size: 60px;
-   line-height: 72px;
+   line-height: 135%;
    font-weight: 700;
    text-transform: uppercase;
    color: #ffffff;
@@ -109,66 +105,59 @@ body {
    margin-top: 30px;
    text-align: center;
 }
-
 .banerpp {
    font-size: 23px;
-   line-height: 1.2;
+   line-height: 120%;
    color: #ffffff;
    margin-top: 30px;
    text-align: center;
 }
-
 .btn-bg {
+   display: flex;
    margin: 0 auto;
 }
-
-
 .btn-sv {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    width: 157px;
    height: 45px;
+   color: #ffffff;
    background-color: #ffcb0f;
    border-radius: 10.0px;
    border: none;
    font-size: 16px;
-   line-height: 13px;
+   line-height: 100%;
    font-weight: 700;
    text-transform: uppercase;
    margin: 70px 35px;
-
 }
 
-.btn-sv a {
+.btn-sv {
    text-decoration: none;
    color: #ffffff;
 }
 /* ================= compani ================== */
 
 .compani {
-   margin: 100px 0 20px 0;
-   
+   margin: 100px 0 0;
 }
-
 .compani h2 {
-   font-size: 40.8px;
-   line-height: 1.2;
+   font-size: 40px;
+   line-height: 120%;
    font-weight: 700;
    text-transform: uppercase;
    color: #ffcb0f;
 }
-
 .compani h4 {
    font-size: 30px;
-   line-height: 1.2;
+   line-height: 120%;
    font-weight: 700;
    color: #484848;
 }
-
 .compani p {
    margin: 30px auto;
 }
-
-
-
 .btn-company {
    font-size: 16px;
    line-height: 13px;
@@ -187,29 +176,22 @@ body {
    letter-spacing: 0.05em;
    color: #ffffff;
 }
-
-
 .compani-img {
    background: url(../img/layer_zfone.png) 0 0 / 100% no-repeat;
    max-width: 100%;
-
 }
 
 .compani-imgstroy {
    max-width: 258px;
    max-height: 472px;
    margin-left: 30%;
-
 }
-
 /* ================ блок с круглыми картинкаи ============== */
-
 .why_are {
-
    text-align: center;
    background: #F2F7FA;
+   padding: 0 30px 10px;
 }
-
 .why_are h2 {
    text-align: center;
    margin: 0 auto;
@@ -218,56 +200,36 @@ body {
    font-weight: 700;
    text-transform: uppercase;
    color: #484848;
-   margin-top: 75px;
+   margin-top: 50px;
 }
-
 .why_are p {
    text-align: center;
    margin: 30px 0 0 0;
    padding: 0 3%;
 }
-
 .roundbl {
    display: flex;
    flex-wrap: wrap;
+   gap: 50px;
    justify-content: center;
    margin: 50px auto 0;
-
-
 }
-
-
-
+.roundbl_iten {
+   width: 210px;
+}
 .roundbl_iten p {
    padding: 0 0 18px 0;
    margin: 0;
-
 }
-
-.roundbl_iten {
-   width: 150px;
-   margin: 0 45px;
-   text-align: center;
-
-}
-
 .roundbl h5 {
-   margin-top: 15px;
+   margin-top: 20px;
    font-size: 15px;
    font-weight: 700;
-
-
 }
-
 .roundbl p {
    margin: 18px 0px;
-
 }
-
 /* ====================== Блок сервиса ===================== */
-
-
-
 .ousertt h2 {
    font-size: 30px;
    font-weight: 700;
@@ -276,39 +238,27 @@ body {
    text-align: center;
    margin: 85px auto 50px;
 }
-
 .ouser {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
-   text-align: center;
-   margin: 0 auto;
-
+   width: 100%;
+   gap: 50px;
 }
-
 .ouser_item {
-   margin: 0 25px 30px 25px;
+   margin: 0 25px 30px;
    width: 260px;
    min-height: 390px;
 }
-
-.ouser_item img {
-   max-width: 100%;
-
-}
-
 .ouser_item h4 {
    font-size: 20px;
    font-weight: 700;
    margin: 30px auto 20px;
    min-height: 48px;
 }
-
 .ouser_item p {
    min-height: 150px;
 }
-
-
 .btn-ouser {
    font-size: 16px;
    line-height: 13px;
@@ -319,7 +269,6 @@ body {
    border-radius: 10.0px;
    margin-bottom: 20px;
    border: none
-
 }
 
 .btn-ouser a {
@@ -329,28 +278,21 @@ body {
    letter-spacing: 0.05em;
    color: #ffffff;
 }
-
 /* ====================== текст и форам отправки ====================== */
-
 .cont_otprav {
    background: #FFDB5C;
    min-width: 175px;
    padding: 35px 0;
 }
-
 .forma_ot {
    max-width: 1140px;
    margin: 0 auto;
    align-items: center;
 }
-
-
 .text_shy {
    display: block;
    text-align: center;
-   
 }
-
 .if {
    font-size: 30px;
    line-height: 1.2;
@@ -358,7 +300,6 @@ body {
    text-transform: uppercase;
    color: #2f3240;
 }
-
 .touch {
    font-size: 30px;
    line-height: 1.2;
@@ -366,271 +307,194 @@ body {
    text-transform: uppercase;
    color: #2f3240;
 }
-
 .form_bl {
    text-align: center;
 }
-
-.form_bl input {
-   margin: 5px;
-   padding: 5px 0 5px 15px;
+.form {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.form__item {
+   width: 49%;
+   height: 40px;
+   padding: 5px 15px;
    border-radius: 8px;
    border: none;
 }
-
-textarea {
-   margin: 5px;
-   padding: 5px 0 5px 15px;
-   border-radius: 8px;
-   border: none;
-}
-
 .btn-for {
    font-size: 16px;
-   line-height: 13px;
    letter-spacing: 0.05em;
-   width: 145px;
-   height: 33px;
+   width: 49%;
+   height: 40px;
+   color: #fff;
    background-color: #71737D;
    border-radius: 8.0px;
    border: none;
-   position: relative;
-   margin: 15px 0 0 5px;
-   top: -15px;
-   left: 0;
-
 }
-
-.btn-for a {
-   text-decoration: none;
-   color: #fff;
-}
-
 /* ======================= постройка домов ======================== */
-
-
-
 .bg_building {
    background: url(../img/house-building/fon_max.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
-
 }
-
 .bg_building h2 {
    padding: 10% 15%;
    font-size: 40px;
    color: #fff;
 }
-
 .building_bloc {
    margin: 40px 0;
-
 }
-
 .building_bloc h2 {
    font-size: 35px;
    text-align: center;
    padding-bottom: 10px;
 }
-
 .building_image {
    margin: 30px 0;
 }
-
 .building_image h2 {
    margin: 0px 10px;
 }
-
 .building_image p {
    margin: 30px 10px;
 }
-
 .building_image a {
    padding: 10px 20px;
 }
-
 .buildingaaa {
-
    margin: 30px auto;
    font-weight: 700;
    border-bottom: 2px solid;
 }
-
-
-
 .building_image h2 {
    margin: 50px 0;
    padding: 0 5px;
 }
-
 /* ========================== ремонт ======================== */
-
-
-
 .cont_remont h2 {
    margin: 20px auto;
    text-align: center;
 }
-
 .row_remont {
    display: flex;
    justify-content: center;
 }
-
 .card {
    border: none;
 }
-
-
-
 .remont_card-body ul li {
    color: #ffcb0f;
    list-style: square;
    font-size: 20px;
 }
-
 .remont_card-body ul li span {
    color: #2f3240;
    margin: 0 15px;
    font-size: 15px;
 }
-
 .remont_tooq_row {
    margin: 50px 0;
    margin-bottom: 70px;
 }
-
 .remont_tooq_row h2 {
    margin: 30px auto;
 }
-
 /* ==================== сантех ================ */
-
 .santeh_cont h2 {
    text-align: center;
    margin: 40px 0 30px;
 }
-
 .santeh_cart {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
 }
-
 .santeh_cart_item {
    margin: 20px 30px;
    max-width: 200px;
-
 }
-
 .santeh_cart_item img {
    margin: 0 auto;
    background: #ffcb0f;
-
-
    padding: 50px;
 }
-
 .santeh_cart_item h5 {
    padding: 15px 0 10px;
    text-align: center;
 }
-
 .santeh_cart_item p {
-
    text-align: center;
 }
-
 .santehn_baton {
    text-align: center;
    margin: 40px 3%;
-   
 }
 
 /*  ============================ электрика =============================== */
 .electro  {
    text-align: center;
 }
-
 .electro h2 {
    text-align: center;
    margin: 50px 0;
 }
-
 .electro_block_item {
    display: flex;
    margin: 30px;
    padding: 20px;
    background-color: #ffcb0f;
 }
-
 .electro_block_image {
    width: 50%;
    align-items: center;
    margin: auto;
-
 }
-
-
-
 .electro_block_text {
    padding: 0 40px;
    margin: 0;
    width: 50%;
    margin: auto;
 }
-
 .electro_block_text h2 {
    margin: 15px auto;
 }
 
 /*  ========================= мебель ====================== */
-
 .furniture_top_bloc {
    text-align: center;
 }
-
 .furniture_top_bloc h2 {
    margin: 50px auto;
 }
-
 .furniture_top_bloc h4 {
    margin: 50px auto;
 }
-
 .furniture_top_bloc img {
    max-width: 100%;
 }
-
-
 .furniture_list {
    text-align: left;
    margin: 50px;
 }
-
 .furniture_list ul li {
    color: #ffcb0f;
    list-style: square;
    font-size: 20px;
 }
-
 .furniture_list ul li span {
    color: #2f3240;
    list-style: square;
    font-size: 15px;
 }
 
-
-
-
-
 /* ====================== футер ================= */
 /* ====================== футер ================= */
 /* ====================== футер ================= */
-
-
 .footer_container {
    background: url(../img/image_html/bg-footer.jpg);
    background-repeat: no-repeat;
@@ -638,178 +502,146 @@ textarea {
    min-height: 100vh;
    min-height: 500px;
 }
-
 .footer_row {
    padding-top: 125px;
    max-width: 1140px;
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
-
 }
-
-
 .footer_one h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-
 .footer_one h4 {
    padding-bottom: 35px;
 }
-
 .footer_one h4 a {
    color: #ffcb0f;
 }
-
 .footer_one p {
    padding: 0 0 0 0px;
    color: #ffffff;
 }
-
 .footer_mesager {
    padding: 0 15px;
 }
-
 .footer_mesager a  {
    padding: 10px 14px;
    color: #ffcb0f;
    font-size: 30px;
 }
-
+.footer_mesager a .fab {
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+}
+.footer_mesager a:hover .fab {
+   margin-top: -2px;
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+}
 
 /* ======================= футер часть два ========================= */
-
-
-
 .footer_too h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-
 .footer_too p {
    line-height: 35px;
 }
-
 .footer_too p a {
    display: block;
    text-decoration: none;
    color: #fff;
 }
-
 .footer_too p a:hover {
    color: #ffcb0f;
 }
-
 /* ======================== футер часть 3 ======================== */
-
-
-
 .footer_three h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-
 .footer_three p {
    line-height: 35px;
 }
-
 .footer_three p a {
    display: block;
    text-decoration: none;
    color: #fff;
 }
-
 .footer_three p a i {
    padding: 0 10px 0 0;
 }
-
 .footer_three p.site {
    display: flex;
-   margin: -10px 0 0 0;
 }
-
 .footer_three p.site a {
 padding-right: 20px;
 }
-
 .site a i {
    font-size: 17px;
    color: #ffcb0f;
 }
-
 .site a i:hover {
    font-size: 17px;
-   color: #406dff;
+   color: #6fff80;
 }
-
 .footer_three p a:hover {
    color: #ffcb0f;
 }
 
 /* ======================= футер часть 4 ========================= */
-
-
-
 .footer_four h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-
 .footer_contact a {
    display: block;
    text-decoration: none;
    padding: 7px 7px 7px 0;
    color: #fff;
 }
-
 .footer_contact a i {
    padding: 0 10px 0 0;
 }
-
 .footer_contact a:hover {
    color: #ffcb0f;
 }
 
-
-
-
 /* ===================== @media 1400 ===================== */
 /* ===================== @media 1400 ===================== */
 /* ===================== @media 1400 ===================== */
-
-
 @media (max-width: 1400px) {
 
    .baner-text {
-      margin-top: 150px;
-      line-height: 50px;
+      margin-top: 100px;
    }
-   
    .baner-xl {
       font-size: 60px;
-      line-height: 50px;
       padding: 30px;
    }
-
    .banerpp {
       line-height: 35px;
    }
-
-
    .compani {
       margin-top: 25px;
    }
-
-   /*                  постройка домов                       */
+   /*  постройка домов     */
    .bg_building {
       background: url(../img/house-building/fon1300.jpg);
       background-repeat: no-repeat;
@@ -818,30 +650,45 @@ padding-right: 20px;
    }
 }
 
+/* ===================== @media 1200 ===================== */
+@media (max-width: 1200px) {
+   .container-compani {
+      max-width: 100%;
+   }
+   .container-why_are {
+      max-width: 100%;
+   }
+   .why_are {
+      padding: 0 15px 30px;
+   }
+   .ouser {
+      justify-content: space-between;
+      width: 100%;
+      gap: 15px;
+   }
+   .ousertt h2 {
+      margin: 50px auto 50px;
+   }
+}
+/* ===================== @media 1200 /===================== */
 
 /* ===================== @media 1140 ===================== */
 /* ===================== @media 1140 ===================== */
 /* ===================== @media 1140 ===================== */
-
-
-
 @media (max-width: 1140px) {
 
    .top-contakt {
       padding: 0 8%;
    }
    .baner-text {
-      line-height:30px;
       font-size: 30px;
+      margin-top: 75px;
    }
-   
    .baner-xl {
       font-size: 50px;
-      line-height: 50px;
       margin-top: 20px;
       font-size: 45px;
    }
-
    .banerpp {
       font-size: 20px;
       line-height: 35px;
@@ -849,90 +696,86 @@ padding-right: 20px;
       margin: 25px 0;
       text-align: center;
    }
-
    .btn-sv {
       margin-top: 35px;
    }
-
    .compani {
       margin-top: 25px;
    }
-
    .ouser_item {
       margin: 0 20px 30px 20px;
    }
+   .compani h2 {
+      font-size: 3.7vw;
 
-   /* ================= постройка домов ======================= */
-
+   }
+     /* ================= постройка домов ======================= */
    .bg_building {
       /* background: url(../img/house-building/home1200.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
    }
-
 }
+/* ===================== @media 1040 ===================== */
+@media (max-width: 1040px) {
+   .clock {
+      display: none;
+   }
+}
+/* ===================== @media 1040 ===================== */
+
+
 
 /* ===================== @media 990 ===================== */
 /* ===================== @media 990 ===================== */
 /* ===================== @media 990 ===================== */
-
-
 @media (max-width: 990px) {
 
    .top-contakt {
       padding: 0 8%;
    }
-   .clock {
-      display: none;
+   .navbar-nav {
+      padding: 30px 0 0;
    }
-
+   .nav-item {
+      margin: 0;
+   }
+   .nav-link {
+      padding: 15px 0;
+      font-size: 18px;
+   }
    .baner-text {
       margin-top: 80px;
-      line-height: 50px;
       font-size: 30px;
-   }
-   
+   } 
    .baner-xl {
-      line-height: 1.3;
       font-size: 35px;
       padding: 20px 0 20px 0;
    }
-
    .banerpp {
       font-size: 20px;
       line-height: 1.5;
       color: #ffffff;
       margin-top: 15px;
-      text-align: center;
-      
+      text-align: center;      
    }
-
-   .btn-sv {
-      margin-top: 120px;
-   }
-
    .compani {
       margin-top: 25px;
    }
-
-   .compani h2 {
-      text-align: center;
-   }
-
    .btn-company {
       margin: 0px 0 30px 0;
    }
-
-   .ouser {
-      text-align: center;
+   .container-why_are {
+      max-width: 100%;
    }
-
+   .form__item {
+      width: 100%;
+   }
    .footer_one, .footer_too, .footer_three, .footer_four {
       margin: 0px 0 60px 0;
    }
-
-   
+ 
    /* =============== постройка домов ================= */
 
    .bg_building {
@@ -940,17 +783,13 @@ padding-right: 20px;
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
-
    }
 
    /*  ===================== электрика ===================== */
-
    .electro {
       text-align: center;
       margin: 0 auto;
    }
-
-
    .electro_block_item {
       display: block;
       margin: 20px 0;
@@ -960,115 +799,120 @@ padding-right: 20px;
       margin: 0 auto;
       padding: 0;
    }
-
    .electro_block_text p {
       /* margin: 0 auto; */
       padding: 15px 0;
    }
-
    .electro_block_image {
       text-align: center;
       margin: 0px auto;
       padding: 0 ;
-
-
    }
 
    .electro_block_image img {
       max-width: 100%;
       margin: 20px 0;
    }
-
    .electro_block_text h2 {
       padding-top: 20px;
    }
-
-}
-
-/* ===================== @media 690 ===================== */
-/* ===================== @media 690 ===================== */
-/* ===================== @media 690 ===================== */
-
-
-@media (max-width: 690px) {
-
-   .top-contakt {
-      padding: 5px 30px;
+   .compani h2 {
+      font-size: 3.6vw;
+  }
+  .compani h4 {
+   font-size: 3vw;
    }
+   .roundbl_iten {
+      flex-grow: 1;
+   }
+}
+/* ========== @media 990px /========== */
 
+/* =========== @media 768px =========== */
+@media (max-width: 768px) {
+   .top-contakt {
+      padding: 0 45px;
+   }
+   .top-contakt_left a {
+      margin: 0 30px 0 0;
+   }
+   .top-contakt_left i {
+      margin: 0 10px 0 0;
+  }
+   .top-contakt_right {
+      display: none;
+   }
+   .navbar-toggler {
+     border: none;
+   }
+   /* .navbar-toggler {
+      outline: none;
+   } */
+   .navbar-toggler:focus {
+      outline: none;
+   }
+   .containerbg{
+      max-width: 100%;
+  }
+   .baner-text {
+      font-size: 4vw;
+   }
+   .compani h2 {
+      font-size: 7vw;
+      margin-bottom: 15px;
+  }
+  .compani h4 {
+   font-size: 6vw;
+   }
+   .container-ousertt {
+      max-width: 100%;
+   }
+}
+/* =========== @media 768px /=========== */
+
+/* ============ @media 690 ============ */
+@media (max-width: 690px) {
+   .top-contakt {
+      padding: 5px 45px;
+   }
    .top-contakt a {
       display: block;
    }
-
-   .top-contakt_right a {
-      display: block;
-
-   }
-
    a.clock {
       display: none;
    }
- 
    .navbar {
       min-height: 60px;
    }
-
    .navbar-brand p {
       margin: 0;
   }
-
   .top-contakt_left a {
    margin: 0;
-}
-
-  .top-contakt_right {
-   display: none;
-}
-
+   }
+   .bg {
+      min-height: 500px;
+   }
    .baner-text {
-      line-height: 18px;
-      font-size: 20px;
-      margin: 80px auto 10px;
-
+      margin: 60px auto 0;
    }
-   
    .baner-xl {
-      line-height: 40px;
       font-size: 20px;
-
+      line-height: 180%;
    }
-
    .banerpp {
       font-size: 16px;
       line-height: 22px;
-
    }
-
    .btn-sv {
-      width: 120px;
-      height: 25px;
-      font-size: 16px;
-      line-height: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 50px 20px;
-      font-size: 13px;
+      width: 140px;
+      height: 35px;
+      font-size: 14px;
+      margin: 70px 15px;
    }
-
    .compani {
       margin-top: 25px;
    }
-
-   .compani h2 {
-      font-size: 30px;
-      line-height: 1.2;
-      text-align: center;
-   }
-
-   .compani h4 {
-      font-size: 24px;
-   }
-
    .compani-imgstroy {
       margin-left: 25%;
    }
@@ -1081,117 +925,145 @@ padding-right: 20px;
       background-size: cover;
       min-height: 100vh;
    }
-
    .building_image h2 {
       margin: 10px 10px;
       font-size: 22px;
    }
 
-
 }
+/* ============ @media 690 ============ */
+
+/* =========== @media 620px =========== */
+@media (max-width: 620px) {
+   .ouser_item {
+      margin: 0 15px 30px;
+      width: 100%;
+      text-align: center;
+   }
+   .ouser_item h4 {
+      font-size: 20px;
+      margin: 25px auto 15px;
+      min-height: 1px;
+   }
+   .ouser_item p {
+      min-height: 100px;
+      margin-bottom: 25px;
+   }
+   .footer_row {
+      padding-top: 50px;
+   }
+}
+/* =========== @media 620px /=========== */
+
+/* ============ @media 530 ============ */
+@media (max-width: 530px) {
+   .why_are h2 {
+      font-size: 6vw;
+      margin-top: 50px;
+   }
+   .why_are p {
+      padding: 0;
+   }
+   .footer_one h5 {
+      padding: 0px 0 20px 0;
+   }
+}
+/* ============ @media 530 /============ */
+
+/* ============ @media 450 ============ */
+@media (max-width: 450px) {
+   .navbar {
+      padding: 11px 15px;
+   }
+   .navbar-brand {
+      padding-left: 0;
+   }
+   .navbar-toggler {
+      padding: .25rem 0;
+   }
+   .top-contakt {
+      padding: 5px 15px;
+   }
+  .compani h2 {
+   font-size: 6vw;
+   }
+   .compani p {
+      margin: 15px auto 30px;
+   }
+   .cont_otprav {
+      padding: 30px 0 35px;
+   }
+   .if {
+      margin-bottom: 7px;
+   }
+}
+/* ============ @media 450 /============ */
 
 /* ===================== @media 390 ===================== */
 /* ===================== @media 390 ===================== */
 /* ===================== @media 390 ===================== */
-
 
 @media (max-width : 390px) {
 
-   .top-contakt {
-      padding: 0 5%;
-   }
-
-   .top-contakt {
-      padding: 5px 20px;
-   }
-
-   .top-contakt a {
+   /* .top-contakt a {
       display: block;
-      
-   }
-
+   } */
    a.clock {
       display: none;
    }
-
-   
    .top-contakt_left a {
       margin: 0;
    }
-
    .top-contakt_right {
       display: none;
    }
-
    .navbar-brand p {
       margin: 0;
-  }
-
+   }
    .navbar {
       min-height: 60px;
    }
-
    .navbar-brand p {
       padding: 0;
    }
-
    .baner-text {
-
-      line-height: 14px;
       font-size: 16px;
-
    }
-   
-   .baner-xl {
-      line-height: 25px;
-      margin-top: 8px;
-      font-size: 20px;
-
-   }
-
    .banerpp {
       line-height: 18px;
       margin-top: 8px;
       font-size: 14px;
-
    }
-
+   .baner-xl {
+      line-height: 160%;
+   }
    .btn-sv {
-      width: 120px;
-      height: 25px;
-      font-size: 16px;
-      line-height: 13px;
-      font-weight: 700;
-      margin: 20px 10px;
-      font-size: 13px;
-
+      width: 130px;
+      height: 35px;
+      font-size: 14px;
+      margin: 30px 8px 70px;
    }
-
    .compani {
       margin-top: 25px;
    }
-
-   .compani h2 {
-      font-size: 30px;
-      line-height: 1.2;
-      text-align: center;
-   }
-
    .compani h4 {
-      font-size: 24px;
-      text-align: center;
+      font-size: 5vw;
    }
-
    .compani-imgstroy {
       margin-left: 10%;
    }
-
    .roundbl {
       display: flex;
       flex-wrap: wrap;
    }
+   .if, .touch {
+      font-size: 6vw;
+   } 
+   .footer_row {
+      padding-top: 40px;
+   }
 
-   /* ==================== построим дом ==================== */
+   /* ==================== построим дом 390px ==================== */
 
    .bg_building {
       background: url(../img/house-building/home001.jpg);
@@ -1199,25 +1071,27 @@ padding-right: 20px;
       background-size: cover;
       min-height: 100vh;
    }
-
    .bg_building h2 {
       font-size: 30px;
       text-align: center;
       line-height: 40px;
    }
-
    .buildingaaa {
       font-size: 25px;
    }
- 
-   /* ============= progect =============== */
+
+   /* ============= progect 390px ============ */
 
    .building_image h2 {
       margin: 10px 10px;
       font-size: 22px;
    }
-   
+}
 
 
+
+/* ===================== @media 0 ===================== */
+@media (max-width: 0px) {
 
 }
+/* ===================== @media 0 /===================== */
