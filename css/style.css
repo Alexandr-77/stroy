@@ -41,14 +41,14 @@ a {
 .top-contakt a:hover {
    color: #fcf595;
 } 
-.top-contakt_left i {
+.top-contakt__left i {
    margin: 0 10px;
 }
-.top-contakt_left a {
+.top-contakt__left a {
    margin: 0 0 0 30px;
    border-radius: 10px;
 }
-.top-contakt_right a {
+.top-contakt__right a {
    margin: 5px 12px 0;
    font-size: 20px;
 }
@@ -137,7 +137,7 @@ a {
    text-decoration: none;
    color: #ffffff;
 }
-/* ================= compani ================== */
+/* ====== compani ====== */
 
 .compani {
    margin: 100px 0 0;
@@ -186,13 +186,13 @@ a {
    max-height: 472px;
    margin-left: 30%;
 }
-/* ================ блок с круглыми картинкаи ============== */
-.why_are {
+/* ======= блок с круглыми картинкаи ====== */
+.why__are {
    text-align: center;
    background: #F2F7FA;
    padding: 0 30px 10px;
 }
-.why_are h2 {
+.why__are h2 {
    text-align: center;
    margin: 0 auto;
    font-size: 30px;
@@ -202,7 +202,7 @@ a {
    color: #484848;
    margin-top: 50px;
 }
-.why_are p {
+.why__are p {
    text-align: center;
    margin: 30px 0 0 0;
    padding: 0 3%;
@@ -214,10 +214,10 @@ a {
    justify-content: center;
    margin: 50px auto 0;
 }
-.roundbl_iten {
+.roundbl__iten {
    width: 210px;
 }
-.roundbl_iten p {
+.roundbl__iten p {
    padding: 0 0 18px 0;
    margin: 0;
 }
@@ -229,7 +229,7 @@ a {
 .roundbl p {
    margin: 18px 0px;
 }
-/* ====================== Блок сервиса ===================== */
+/* ===== Блок сервиса === */
 .ousertt h2 {
    font-size: 30px;
    font-weight: 700;
@@ -245,18 +245,18 @@ a {
    width: 100%;
    gap: 50px;
 }
-.ouser_item {
+.ouser__item {
    margin: 0 25px 30px;
    width: 260px;
    min-height: 390px;
 }
-.ouser_item h4 {
+.ouser__item h4 {
    font-size: 20px;
    font-weight: 700;
    margin: 30px auto 20px;
    min-height: 48px;
 }
-.ouser_item p {
+.ouser__item p {
    min-height: 150px;
 }
 .btn-ouser {
@@ -278,18 +278,18 @@ a {
    letter-spacing: 0.05em;
    color: #ffffff;
 }
-/* ====================== текст и форам отправки ====================== */
-.cont_otprav {
+/* - текст и форам отправки - */
+.cont__otprav {
    background: #FFDB5C;
    min-width: 175px;
    padding: 35px 0;
 }
-.forma_ot {
+.forma__ot {
    max-width: 1140px;
    margin: 0 auto;
    align-items: center;
 }
-.text_shy {
+.text__shy {
    display: block;
    text-align: center;
 }
@@ -307,7 +307,7 @@ a {
    text-transform: uppercase;
    color: #2f3240;
 }
-.form_bl {
+.form__bl {
    text-align: center;
 }
 .form {
@@ -334,36 +334,43 @@ a {
    border-radius: 8.0px;
    border: none;
 }
-/* ======================= постройка домов ======================== */
-.bg_building {
+/* ===== постройка домов ====== */
+.bg__building {
    background: url(../img/house-building/fon_max.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
+   display: flex;
+   justify-content: center;
 }
-.bg_building h2 {
-   padding: 10% 15%;
-   font-size: 40px;
+.bg__building h2 {
+   padding: 100px 0 ;
+   font-size: 3vw;
+   font-weight: 600;
    color: #fff;
+   margin: 0 auto;
 }
-.building_bloc {
+.building__bloc {
    margin: 40px 0;
 }
-.building_bloc h2 {
+.building__bloc h2 {
    font-size: 35px;
    text-align: center;
-   padding-bottom: 10px;
+   padding-bottom: 25px;
 }
-.building_image {
-   margin: 30px 0;
+.building__card-body {
+   padding: 20px 0 !important;
 }
-.building_image h2 {
+.building__image {
+   padding: 0 15px 30px;
+}
+.building__image h2 {
    margin: 0px 10px;
 }
-.building_image p {
+.building__image p {
    margin: 30px 10px;
 }
-.building_image a {
+.building__image a {
    padding: 10px 20px;
 }
 .buildingaaa {
@@ -371,68 +378,91 @@ a {
    font-weight: 700;
    border-bottom: 2px solid;
 }
-.building_image h2 {
+.building__image h2 {
    margin: 50px 0;
-   padding: 0 5px;
 }
-/* ========================== ремонт ======================== */
-.cont_remont h2 {
-   margin: 20px auto;
+/* ======= ремонт ===== */
+.remont__title-top {
+   margin: 40px 0;
    text-align: center;
 }
-.row_remont {
+.remont__block {
    display: flex;
+   gap: 30px;
    justify-content: center;
+   flex-wrap: wrap;
 }
-.card {
-   border: none;
+.remont__block-item {
+   flex: 1 1 48%;
 }
-.remont_card-body ul li {
+.remont__block-image img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.remont__block-text {
+   padding: 20px;
+}
+.remont__card-title {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.remont__ul {
+   padding-left: 16px;
+}
+.remont__ul-li {
    color: #ffcb0f;
    list-style: square;
    font-size: 20px;
+   padding-left: 15px;
 }
-.remont_card-body ul li span {
+.remont__ul-li span {
    color: #2f3240;
-   margin: 0 15px;
    font-size: 15px;
 }
-.remont_tooq_row {
-   margin: 50px 0;
-   margin-bottom: 70px;
+/* ------- */
+.remont__tooq-row {
+   margin: 50px 0 70px;
 }
-.remont_tooq_row h2 {
+.remont__tooq-row h2 {
    margin: 30px auto;
 }
-/* ==================== сантех ================ */
-.santeh_cont h2 {
+/* =========== сантех ======= */
+.santeh__cont h2 {
    text-align: center;
-   margin: 40px 0 30px;
+   margin: 40px 0 40px;
 }
-.santeh_cart {
+.santeh__cart {
    display: flex;
+   gap: 50px;
    flex-wrap: wrap;
    justify-content: center;
+   margin-bottom: 75px;
 }
-.santeh_cart_item {
-   margin: 20px 30px;
+.santeh__cart-item {
+   /* margin: 20px 30px; */
    max-width: 200px;
 }
-.santeh_cart_item img {
+.santeh__cart-item img {
    margin: 0 auto;
    background: #ffcb0f;
    padding: 50px;
 }
-.santeh_cart_item h5 {
+.santeh__cart-item h5 {
    padding: 15px 0 10px;
    text-align: center;
 }
-.santeh_cart_item p {
+.santeh__cart-item p {
    text-align: center;
 }
-.santehn_baton {
+.santeh__baton {
    text-align: center;
-   margin: 40px 3%;
+   margin: 40px 0;
+}
+.santeh__baton h4 {
+   font-size: 30px;
+   line-height: 120%;
+   margin: 50px 0 20px;
 }
 
 /*  ============================ электрика =============================== */
@@ -443,50 +473,59 @@ a {
    text-align: center;
    margin: 50px 0;
 }
-.electro_block_item {
+.electro__block-item {
    display: flex;
    margin: 30px;
    padding: 20px;
    background-color: #ffcb0f;
 }
-.electro_block_image {
+.electro__block-image {
    width: 50%;
    align-items: center;
    margin: auto;
+   height: 300px;
 }
-.electro_block_text {
+
+.electro__block-image img {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   object-fit: cover;
+   height: 100%;
+}
+.electro__block-text {
    padding: 0 40px;
    margin: 0;
    width: 50%;
    margin: auto;
 }
-.electro_block_text h2 {
+.electro__block-text h2 {
    margin: 15px auto;
 }
 
 /*  ========================= мебель ====================== */
-.furniture_top_bloc {
+.furniture__top-block {
    text-align: center;
 }
-.furniture_top_bloc h2 {
+.furniture__top-block h2 {
    margin: 50px auto;
 }
-.furniture_top_bloc h4 {
+.furniture__top-block h4 {
    margin: 50px auto;
 }
-.furniture_top_bloc img {
+.furniture__top-block img {
    max-width: 100%;
 }
-.furniture_list {
+.furniture__list {
    text-align: left;
    margin: 50px;
 }
-.furniture_list ul li {
+.furniture__list ul li {
    color: #ffcb0f;
    list-style: square;
    font-size: 20px;
 }
-.furniture_list ul li span {
+.furniture__list ul li span {
    color: #2f3240;
    list-style: square;
    font-size: 15px;
@@ -495,52 +534,49 @@ a {
 /* ====================== футер ================= */
 /* ====================== футер ================= */
 /* ====================== футер ================= */
-.footer_container {
+.footer__container {
    background: url(../img/image_html/bg-footer.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    min-height: 100vh;
    min-height: 500px;
 }
-.footer_row {
+.footer__row {
    padding-top: 125px;
    max-width: 1140px;
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
 }
-.footer_one h5 {
+.footer__one h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-.footer_one h4 {
+.footer__one h4 {
    padding-bottom: 35px;
 }
-.footer_one h4 a {
+.footer__one h4 a {
    color: #ffcb0f;
 }
-.footer_one p {
+.footer__one p {
    padding: 0 0 0 0px;
    color: #ffffff;
 }
-.footer_mesager {
-   padding: 0 15px;
-}
-.footer_mesager a  {
-   padding: 10px 14px;
+.footer__mesager a  {
+   padding: 10px 30px 10px 0;
    color: #ffcb0f;
    font-size: 30px;
 }
-.footer_mesager a .fab {
+.footer__mesager a .fab {
    transition: all 0.5s;
    -webkit-transition: all 0.5s;
    -moz-transition: all 0.5s;
    -ms-transition: all 0.5s;
    -o-transition: all 0.5s;
 }
-.footer_mesager a:hover .fab {
+.footer__mesager a:hover .fab {
    margin-top: -2px;
    transform: scale(1.1);
    -webkit-transform: scale(1.1);
@@ -550,76 +586,82 @@ a {
 }
 
 /* ======================= футер часть два ========================= */
-.footer_too h5 {
+.footer__too h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-.footer_too p {
+.footer__too p {
    line-height: 35px;
 }
-.footer_too p a {
+.footer__too p a {
    display: block;
    text-decoration: none;
    color: #fff;
 }
-.footer_too p a:hover {
+.footer__too p a:hover {
    color: #ffcb0f;
 }
 /* ======================== футер часть 3 ======================== */
-.footer_three h5 {
+.footer__three h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-.footer_three p {
+.footer__three p {
    line-height: 35px;
 }
-.footer_three p a {
+.footer__three p a {
    display: block;
    text-decoration: none;
    color: #fff;
 }
-.footer_three p a i {
+.footer__three p a i {
    padding: 0 10px 0 0;
 }
-.footer_three p.site {
+.footer__three p.site {
    display: flex;
 }
-.footer_three p.site a {
+.footer__three p.site a {
 padding-right: 20px;
 }
 .site a i {
    font-size: 17px;
    color: #ffcb0f;
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
 }
 .site a i:hover {
    font-size: 17px;
    color: #6fff80;
+   transform: scale(1.5);
 }
-.footer_three p a:hover {
+.footer__three p a:hover {
    color: #ffcb0f;
 }
 
 /* ======================= футер часть 4 ========================= */
-.footer_four h5 {
+.footer__four h5 {
    font-size: 25px;
    line-height: 1.2;
    color: #ffffff;
    padding: 0px 0 40px 0;
 }
-.footer_contact a {
+.footer__contact a {
    display: block;
    text-decoration: none;
    padding: 7px 7px 7px 0;
    color: #fff;
 }
-.footer_contact a i {
+.footer__contact a i {
    padding: 0 10px 0 0;
 }
-.footer_contact a:hover {
+.footer__contact a:hover {
    color: #ffcb0f;
 }
 
@@ -642,7 +684,7 @@ padding-right: 20px;
       margin-top: 25px;
    }
    /*  постройка домов     */
-   .bg_building {
+   .bg__building {
       background: url(../img/house-building/fon1300.jpg);
       background-repeat: no-repeat;
       background-size: cover;
@@ -655,10 +697,10 @@ padding-right: 20px;
    .container-compani {
       max-width: 100%;
    }
-   .container-why_are {
+   .container-why__are {
       max-width: 100%;
    }
-   .why_are {
+   .why__are {
       padding: 0 15px 30px;
    }
    .ouser {
@@ -668,6 +710,10 @@ padding-right: 20px;
    }
    .ousertt h2 {
       margin: 50px auto 50px;
+   }
+   .bg__building h2 {
+      padding: 100px 0px 0;
+      font-size: 4vw;
    }
 }
 /* ===================== @media 1200 /===================== */
@@ -702,7 +748,7 @@ padding-right: 20px;
    .compani {
       margin-top: 25px;
    }
-   .ouser_item {
+   .ouser__item {
       margin: 0 20px 30px 20px;
    }
    .compani h2 {
@@ -710,7 +756,7 @@ padding-right: 20px;
 
    }
      /* ================= постройка домов ======================= */
-   .bg_building {
+   .bg__building {
       /* background: url(../img/house-building/home1200.jpg); */
       background-repeat: no-repeat;
       background-size: cover;
@@ -736,7 +782,7 @@ padding-right: 20px;
       padding: 0 8%;
    }
    .navbar-nav {
-      padding: 30px 0 0;
+      padding: 30px 0 50px;
    }
    .nav-item {
       margin: 0;
@@ -744,6 +790,9 @@ padding-right: 20px;
    .nav-link {
       padding: 15px 0;
       font-size: 18px;
+   }
+   .navbar-toggler {
+      padding: .25rem 0;
    }
    .baner-text {
       margin-top: 80px;
@@ -766,55 +815,49 @@ padding-right: 20px;
    .btn-company {
       margin: 0px 0 30px 0;
    }
-   .container-why_are {
+   .container-why__are {
       max-width: 100%;
    }
    .form__item {
       width: 100%;
    }
-   .footer_one, .footer_too, .footer_three, .footer_four {
+   .footer__one, .footer__too, .footer__three, .footer__four {
       margin: 0px 0 60px 0;
    }
- 
-   /* =============== постройка домов ================= */
-
-   .bg_building {
-      /* background: url(../img/house-building/unnamed.png); */
+   .building__image p {
+      margin: 30px 0;
+   }
+   .bg__building {
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
    }
-
-   /*  ===================== электрика ===================== */
    .electro {
       text-align: center;
       margin: 0 auto;
    }
-   .electro_block_item {
+   .electro__block-item {
       display: block;
       margin: 20px 0;
-      padding: 0;
    }
-   .electro_block_text {
+   .electro__block-text {
       margin: 0 auto;
       padding: 0;
+      width: 100%;
    }
-   .electro_block_text p {
-      /* margin: 0 auto; */
+   .electro__block-text p {
       padding: 15px 0;
+      margin: 0;
    }
-   .electro_block_image {
+   .electro__block-image {
       text-align: center;
-      margin: 0px auto;
-      padding: 0 ;
+      margin: 0px auto 10px;
+      padding: 0;
+      width: 100%;
    }
-
-   .electro_block_image img {
+   .electro__block-image img {
       max-width: 100%;
-      margin: 20px 0;
-   }
-   .electro_block_text h2 {
-      padding-top: 20px;
+      margin: 0;
    }
    .compani h2 {
       font-size: 3.6vw;
@@ -822,7 +865,7 @@ padding-right: 20px;
   .compani h4 {
    font-size: 3vw;
    }
-   .roundbl_iten {
+   .roundbl__iten {
       flex-grow: 1;
    }
 }
@@ -833,13 +876,13 @@ padding-right: 20px;
    .top-contakt {
       padding: 0 45px;
    }
-   .top-contakt_left a {
+   .top-contakt__left a {
       margin: 0 30px 0 0;
    }
-   .top-contakt_left i {
+   .top-contakt__left i {
       margin: 0 10px 0 0;
   }
-   .top-contakt_right {
+   .top-contakt__right {
       display: none;
    }
    .navbar-toggler {
@@ -867,6 +910,9 @@ padding-right: 20px;
    .container-ousertt {
       max-width: 100%;
    }
+   .bg__building h2 {
+      font-size: 5vw;
+   }
 }
 /* =========== @media 768px /=========== */
 
@@ -887,7 +933,7 @@ padding-right: 20px;
    .navbar-brand p {
       margin: 0;
   }
-  .top-contakt_left a {
+  .top-contakt__left a {
    margin: 0;
    }
    .bg {
@@ -919,37 +965,41 @@ padding-right: 20px;
 
    /* ================== строительство домов =================== */
 
-   .bg_building {
+   .bg__building {
       background: url(../img/house-building/home001.jpg);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: 80% 0px;
       min-height: 100vh;
    }
-   .building_image h2 {
-      margin: 10px 10px;
+   .building__image h2 {
+      margin: 15px 0px;
       font-size: 22px;
    }
+   .building__image p {
+      margin: 18px 0px 30px;
+  }
 
 }
 /* ============ @media 690 ============ */
 
 /* =========== @media 620px =========== */
 @media (max-width: 620px) {
-   .ouser_item {
+   .ouser__item {
       margin: 0 15px 30px;
       width: 100%;
       text-align: center;
    }
-   .ouser_item h4 {
+   .ouser__item h4 {
       font-size: 20px;
       margin: 25px auto 15px;
       min-height: 1px;
    }
-   .ouser_item p {
+   .ouser__item p {
       min-height: 100px;
       margin-bottom: 25px;
    }
-   .footer_row {
+   .footer__row {
       padding-top: 50px;
    }
 }
@@ -957,15 +1007,45 @@ padding-right: 20px;
 
 /* ============ @media 530 ============ */
 @media (max-width: 530px) {
-   .why_are h2 {
+   .why__are h2 {
       font-size: 6vw;
       margin-top: 50px;
    }
-   .why_are p {
+   .why__are p {
       padding: 0;
    }
-   .footer_one h5 {
+   .footer__one, .footer__too, .footer__three, .footer__four {
+      margin: 0px 0 50px 0;
+   }
+   .footer__one h4 {
+      padding-bottom: 15px;
+   }
+   .footer__one h5 {
       padding: 0px 0 20px 0;
+   }
+   .footer__too h5 {
+      padding: 0px 0 20px 0;
+   }
+   .footer__three h5 {
+      padding: 0px 0 20px 0;
+   }
+   .footer__four h5 {
+      padding: 0px 0 20px 0;
+   }
+   .footer__four {
+      margin: 0px 0 20px 0;
+   }
+   .remont__ul {
+      padding-left: 5px;
+   }
+   .remont__ul-li {
+      padding-left: 5px;
+   }
+   .remont__tooq-row {
+      margin: 0px 0 30px;
+   }
+   .santeh__cont h2 {
+      font-size: 6vw;
    }
 }
 /* ============ @media 530 /============ */
@@ -990,11 +1070,65 @@ padding-right: 20px;
    .compani p {
       margin: 15px auto 30px;
    }
-   .cont_otprav {
+   .cont__otprav {
       padding: 30px 0 35px;
    }
    .if {
       margin-bottom: 7px;
+   }
+   .remont__card-title {
+      font-size: 6vw;
+   }
+   .remont__tooq-row {
+      margin: 0 0 30px;
+   }
+   .remont__tooq-row h2 {
+      margin: 20px 0;
+   }
+   .remont__title-kv {
+      font-size: 9vw;
+   }
+   .remont__title-home {
+      font-size: 7vw;
+   }
+   .santeh__cart-item h5 {
+      padding: 7px 0 0px;
+      margin: 0;
+   }
+   .santeh__cart {
+      gap: 13px;
+      justify-content: center;
+      margin-bottom: 60px;
+   }
+   .santeh__cart-item {
+      max-width: 47%;
+      background: #ffcb0f;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+   .santeh__cart-item img {
+      padding: 20px 30px;
+   }
+   .santeh__cart-item h5 {
+      padding: 0px 9px 9px;
+      font-size: 4vw;
+   }
+   .electro h2 {
+      margin: 30px 0;
+   }
+   .electro__block-image {
+      height: 250px;
+      margin: 0;
+   }
+   .electro__block-item {
+      margin: 12px 0 0;
+   }
+   .electro__block-text h2 {
+      margin: 0;
+   }
+   .electro__block-text p {
+      padding: 10px 0;
    }
 }
 /* ============ @media 450 /============ */
@@ -1004,17 +1138,13 @@ padding-right: 20px;
 /* ===================== @media 390 ===================== */
 
 @media (max-width : 390px) {
-
-   /* .top-contakt a {
-      display: block;
-   } */
    a.clock {
       display: none;
    }
-   .top-contakt_left a {
+   .top-contakt__left a {
       margin: 0;
    }
-   .top-contakt_right {
+   .top-contakt__right {
       display: none;
    }
    .navbar-brand p {
@@ -1059,19 +1189,17 @@ padding-right: 20px;
    .if, .touch {
       font-size: 6vw;
    } 
-   .footer_row {
+   .footer__row {
       padding-top: 40px;
    }
 
-   /* ==================== построим дом 390px ==================== */
-
-   .bg_building {
+   .bg__building {
       background: url(../img/house-building/home001.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 100vh;
    }
-   .bg_building h2 {
+   .bg__building h2 {
       font-size: 30px;
       text-align: center;
       line-height: 40px;
@@ -1079,12 +1207,11 @@ padding-right: 20px;
    .buildingaaa {
       font-size: 25px;
    }
-
-   /* ============= progect 390px ============ */
-
-   .building_image h2 {
-      margin: 10px 10px;
-      font-size: 22px;
+   .remont__tooq-row {
+      margin: 0 0 20px;
+   }
+   .electro__block-text h2 {
+      font-size: 8vw;
    }
 }
 
