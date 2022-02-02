@@ -358,8 +358,15 @@ a {
    text-align: center;
    padding-bottom: 25px;
 }
+.building__card {
+   box-shadow: 0px 1px 31px rgb(49 49 49 / 10%);
+   border: none !important;
+}
 .building__card-body {
-   padding: 20px 0 !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px 20px !important;
 }
 .building__image {
    padding: 0 15px 30px;
@@ -367,6 +374,9 @@ a {
 .building__image h2 {
    margin: 0px 10px;
 }
+/* .building__wrapper-text {
+
+} */
 .building__image p {
    margin: 30px 10px;
 }
@@ -380,6 +390,30 @@ a {
 }
 .building__image h2 {
    margin: 50px 0;
+}
+.building__btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #424242;
+   background: #FFDB5C;
+   width: 134px;
+   height: 38px;
+   font-weight: 600;
+   margin-top: 20px;
+   text-decoration: none;
+   border-radius: 20px;
+   text-decoration: none;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+   -ms-transition: all 0.3s;
+   -o-transition: all 0.3s;
+}
+.building__btn:hover {
+   color: #424242;
+   background: #ffc700;
+   text-decoration: none;
 }
 /* ======= ремонт ===== */
 .remont__title-top {
@@ -473,17 +507,28 @@ a {
    text-align: center;
    margin: 50px 0;
 }
+.electro h4 {
+   margin-bottom: 15px;
+}
+.electro__toptxt {
+   margin-bottom: 15px;
+}
+.electro__block {
+   margin-bottom: 15px;
+}
 .electro__block-item {
    display: flex;
-   margin: 30px;
-   padding: 20px;
+   margin: 60px 0;
    background-color: #ffcb0f;
+}
+.electro__block-item:nth-child(1) {
+   margin-top: 0;
 }
 .electro__block-image {
    width: 50%;
    align-items: center;
    margin: auto;
-   height: 300px;
+   height: 320px;
 }
 
 .electro__block-image img {
@@ -509,23 +554,29 @@ a {
 }
 .furniture__top-block h2 {
    margin: 50px auto;
+   padding: 0 15px;
 }
 .furniture__top-block h4 {
    margin: 50px auto;
+   font-size: 22px;
+   padding: 0 15px;
 }
 .furniture__top-block img {
    max-width: 100%;
 }
 .furniture__list {
    text-align: left;
-   margin: 50px;
+   margin: 25px 0;
 }
-.furniture__list ul li {
+.furniture__ul {
+   padding: 0 15px 10px 35px;
+}
+.furniture__ul-li {
    color: #ffcb0f;
    list-style: square;
    font-size: 20px;
 }
-.furniture__list ul li span {
+.furniture__ul-li span {
    color: #2f3240;
    list-style: square;
    font-size: 15px;
@@ -715,6 +766,12 @@ padding-right: 20px;
       padding: 100px 0px 0;
       font-size: 4vw;
    }
+   .building__container {
+      max-width: 100%;
+   }
+   .electro__block-item {
+      margin: 40px 0;
+   }
 }
 /* ===================== @media 1200 /===================== */
 
@@ -838,15 +895,14 @@ padding-right: 20px;
    }
    .electro__block-item {
       display: block;
-      margin: 20px 0;
    }
    .electro__block-text {
       margin: 0 auto;
-      padding: 0;
+      padding: 0 15px 15px;
       width: 100%;
    }
    .electro__block-text p {
-      padding: 15px 0;
+      padding: 5px 0 15px;
       margin: 0;
    }
    .electro__block-image {
@@ -855,13 +911,19 @@ padding-right: 20px;
       padding: 0;
       width: 100%;
    }
+   .electro__block-item:nth-child(2n) {
+      display: flex;
+      /* background: #6fff80; */
+      flex-direction: column-reverse;
+   }
+
    .electro__block-image img {
       max-width: 100%;
       margin: 0;
    }
    .compani h2 {
       font-size: 3.6vw;
-  }
+   }
   .compani h4 {
    font-size: 3vw;
    }
@@ -912,6 +974,16 @@ padding-right: 20px;
    }
    .bg__building h2 {
       font-size: 5vw;
+   }
+   .furniture__container {
+      max-width: 100%;
+   }
+   .furniture__top-block h2 {
+      margin: 35px auto 20px;
+   }
+   .furniture__top-block h4 {
+      margin: 15px auto;
+      font-size: 20px;
    }
 }
 /* =========== @media 768px /=========== */
@@ -1047,6 +1119,7 @@ padding-right: 20px;
    .santeh__cont h2 {
       font-size: 6vw;
    }
+   
 }
 /* ============ @media 530 /============ */
 
@@ -1076,6 +1149,9 @@ padding-right: 20px;
    .if {
       margin-bottom: 7px;
    }
+   .building__bloc {
+      margin: 30px 0 5px;
+  }
    .remont__card-title {
       font-size: 6vw;
    }
@@ -1085,11 +1161,17 @@ padding-right: 20px;
    .remont__tooq-row h2 {
       margin: 20px 0;
    }
+   .remont__title-top {
+      margin: 20px 0;
+   }
    .remont__title-kv {
       font-size: 9vw;
    }
    .remont__title-home {
       font-size: 7vw;
+   }
+   .santeh__cont h2 {
+      margin: 20px 0 20px;
    }
    .santeh__cart-item h5 {
       padding: 7px 0 0px;
@@ -1115,7 +1197,7 @@ padding-right: 20px;
       font-size: 4vw;
    }
    .electro h2 {
-      margin: 30px 0;
+      margin: 20px 0;
    }
    .electro__block-image {
       height: 250px;
@@ -1125,10 +1207,25 @@ padding-right: 20px;
       margin: 12px 0 0;
    }
    .electro__block-text h2 {
-      margin: 0;
+      margin: 10px 0 0;
+      font-size: 5.5vw;
+      font-weight: 600;
    }
    .electro__block-text p {
       padding: 10px 0;
+   }
+   .furniture__list {
+      margin: 10px 0 15px;
+   }
+   .furniture__top-block h2 {
+      font-size: 30px;
+   }
+   .furniture__top-block h4 {
+      font-size: 17px;
+   }
+   .furniture__ul-li {
+      line-height: 24px;
+      margin-bottom: 10px;
    }
 }
 /* ============ @media 450 /============ */
@@ -1210,8 +1307,9 @@ padding-right: 20px;
    .remont__tooq-row {
       margin: 0 0 20px;
    }
-   .electro__block-text h2 {
-      font-size: 8vw;
+   .furniture__top-block h2 {
+      font-size: 27px;
+      margin: 20px auto 10px;
    }
 }
 
