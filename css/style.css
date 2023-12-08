@@ -699,7 +699,7 @@ padding-right: 15px;
    font-size: 20px;
 }
 .site a i:hover {
-   font-size: 27px;
+   font-size: 25px;
    color: #6fff80;
    transform: scale(1.1);
 }
@@ -733,6 +733,18 @@ padding-right: 15px;
    font-size: 26px;
    color: #ffcb0f;
    margin-right: 25px;
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+}
+.footer__contact-mesager a i {
+   transition: all 0.5s ease;
+}
+.footer__contact-mesager a:hover i {
+   transform: scale(1.1);
+   /* font-size: 28px; */
 }
 /* ===================== @media 1400 ===================== */
 /* ===================== @media 1400 ===================== */
