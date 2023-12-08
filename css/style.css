@@ -602,7 +602,7 @@ a {
 }
 .footer__row {
    padding-top: 125px;
-   max-width: 1140px;
+   max-width: 1200px;
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;
@@ -684,10 +684,10 @@ a {
    display: flex;
 }
 .footer__three p.site a {
-padding-right: 20px;
+padding-right: 15px;
 }
 .site a i {
-   font-size: 17px;
+   font-size: 24px;
    color: #ffcb0f;
    transition: all 0.5s;
    -webkit-transition: all 0.5s;
@@ -695,10 +695,13 @@ padding-right: 20px;
    -ms-transition: all 0.5s;
    -o-transition: all 0.5s;
 }
+.site .fa-paper-plane {
+   font-size: 20px;
+}
 .site a i:hover {
-   font-size: 17px;
+   font-size: 27px;
    color: #6fff80;
-   transform: scale(1.5);
+   transform: scale(1.1);
 }
 .footer__three p a:hover {
    color: #ffcb0f;
@@ -723,7 +726,14 @@ padding-right: 20px;
 .footer__contact a:hover {
    color: #ffcb0f;
 }
-
+.footer__contact-mesager {
+   margin-top: 15px;
+}
+.footer__contact-mesager a {
+   font-size: 26px;
+   color: #ffcb0f;
+   margin-right: 25px;
+}
 /* ===================== @media 1400 ===================== */
 /* ===================== @media 1400 ===================== */
 /* ===================== @media 1400 ===================== */
@@ -1127,7 +1137,9 @@ padding-right: 20px;
    .santeh__cont h2 {
       font-size: 6vw;
    }
-   
+   .footer__contact-mesager {
+      margin-bottom: 50px;
+  }
 }
 /* ============ @media 530 /============ */
 
