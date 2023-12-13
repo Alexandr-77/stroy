@@ -82,7 +82,7 @@ a {
    background: url(../img/layers.jpg);
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 680px;
+   min-height: 800px;
 } 
 .row-glob {
    padding: 0 15px;
