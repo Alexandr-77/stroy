@@ -526,7 +526,11 @@ a {
    font-weight: 700;
 }
 .electro__toptxt {
-   margin-bottom: 15px;
+   padding: 12px 5px;
+   margin-bottom: 25px;
+   border-radius: 8px;
+   background: #fff;
+   box-shadow: 0px 0px 15px 0px rgba(54,54,54,1);
 }
 .electro__block {
    margin-bottom: 45px;
