@@ -526,7 +526,8 @@ a {
    font-weight: 700;
 }
 .electro__toptxt {
-   padding: 12px 5px;
+   padding: 12px 12px;
+   text-align: left;
    margin-bottom: 25px;
    border-radius: 8px;
    background: #fff;
@@ -537,6 +538,7 @@ a {
 }
 .electro__block-item {
    display: flex;
+   text-align: left;
    margin: 30px 15px;
    background-color: #ffcb0f;
    box-shadow: 0px 0px 15px 0px rgba(54,54,54,1);
