@@ -6,6 +6,9 @@ body {
    font-size: 15px;
    color: #484848;
 }
+.container {
+   max-width: 1440px;
+}
 img {
    display: block;
    max-width: 100%;
@@ -49,6 +52,7 @@ a {
    border-radius: 10px;
 }
 .top-contakt__right a {
+   display: inline-block;
    margin: 5px 8px 0;
    font-size: 22px;
 }
@@ -220,7 +224,7 @@ a {
    margin: 50px auto 0;
 }
 .roundbl__iten {
-   width: 210px;
+   width: 280px;
 }
 .roundbl__iten p {
    padding: 0 0 18px 0;
@@ -246,14 +250,15 @@ a {
 .ouser {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: space-evenly;
    width: 100%;
    gap: 50px;
+   margin-bottom: 80px;
+   padding: 0 15px;
 }
 .ouser__item {
-   margin: 0 25px 30px;
-   width: 260px;
-   min-height: 390px;
+   margin: 0 0 30px;
+   width: 30%;
 }
 .ouser__item h4 {
    font-size: 20px;
@@ -261,19 +266,17 @@ a {
    margin: 30px auto 20px;
    min-height: 48px;
 }
-.ouser__item p {
-   min-height: 150px;
-}
 .btn-ouser {
    font-size: 16px;
    line-height: 13px;
    letter-spacing: 0.05em;
-   width: 157px;
-   height: 45px;
+   min-width: 170px;
+   height: 43px;
    background-color: #ffcb0f;
    border-radius: 10.0px;
    margin-bottom: 20px;
-   border: none
+   border: none;
+   margin-top: 30px;
 }
 
 .btn-ouser a {
@@ -850,9 +853,6 @@ padding-right: 15px;
    .compani {
       margin-top: 25px;
    }
-   .ouser__item {
-      margin: 0 20px 30px 20px;
-   }
    .compani h2 {
       font-size: 3.7vw;
 
@@ -920,6 +920,10 @@ padding-right: 15px;
    .container-why__are {
       max-width: 100%;
    }
+   .ouser__item {
+      width: 48%;
+   }
+
    .form__item {
       width: 100%;
    }
@@ -1030,6 +1034,9 @@ padding-right: 15px;
       margin: 15px auto;
       font-size: 20px;
    }
+   .ouser {
+      justify-content: flex-start;
+    }
 }
 /* =========== @media 768px /=========== */
 
@@ -1103,7 +1110,6 @@ padding-right: 15px;
 /* =========== @media 620px =========== */
 @media (max-width: 620px) {
    .ouser__item {
-      margin: 0 15px 30px;
       width: 100%;
       text-align: center;
    }
@@ -1190,8 +1196,15 @@ padding-right: 15px;
    .compani p {
       margin: 15px auto 30px;
    }
+   .btn-company {
+      width: 100%;
+   }
    .cont__otprav {
       padding: 30px 0 35px;
+   }
+   .btn-ouser {
+      min-width: 180px;
+      margin-top: 10px;
    }
    .if {
       margin-bottom: 7px;
