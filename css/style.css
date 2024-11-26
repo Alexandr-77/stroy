@@ -259,6 +259,7 @@ a {
 .ouser__item {
    margin: 0 0 30px;
    width: 30%;
+   width: calc(33% - 30px);
 }
 .ouser__item h4 {
    font-size: 20px;
@@ -1319,7 +1320,6 @@ padding-right: 15px;
       font-size: 16px;
    }
    .banerpp {
-      line-height: 18px;
       margin-top: 8px;
       font-size: 14px;
    }
