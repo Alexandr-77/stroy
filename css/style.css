@@ -486,8 +486,8 @@ a {
    margin-bottom: 75px;
 }
 .santeh__cart-item {
-   /* margin: 20px 30px; */
-   max-width: 200px;
+   max-width: 227px;
+   background: rgb(255, 247, 237);
 }
 .santeh__cart-item img {
    margin: 0 auto;
@@ -495,8 +495,9 @@ a {
    padding: 50px;
 }
 .santeh__cart-item h5 {
-   padding: 15px 0 10px;
+   padding: 15px 10px;
    text-align: center;
+   font-size: 16px;
 }
 .santeh__cart-item p {
    text-align: center;
