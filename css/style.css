@@ -495,9 +495,10 @@ a {
    padding: 50px;
 }
 .santeh__cart-item h5 {
-   padding: 15px 10px;
+   padding: 20px 10px;
    text-align: center;
-   font-size: 16px;
+   font-size: 15px;
+   margin: 0;
 }
 .santeh__cart-item p {
    text-align: center;
@@ -536,7 +537,7 @@ a {
    margin-bottom: 25px;
    border-radius: 8px;
    background: #fff;
-   box-shadow: 0px 0px 15px 0px rgba(54,54,54,1);
+   box-shadow: 0px 0px 15px 0px #dfdfdf;
 }
 .electro__block {
    margin-bottom: 45px;
@@ -546,7 +547,7 @@ a {
    text-align: left;
    margin: 30px 15px;
    background-color: #ffcb0f;
-   box-shadow: 0px 0px 15px 0px rgba(54,54,54,1);
+   box-shadow: 0px 0px 15px 0px #afafaf;
    border-radius: 10px;
    overflow: hidden;
 }
